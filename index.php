@@ -736,18 +736,18 @@
 <!-- ============================================================
      13. ASSOCIATED / TRUST
      ============================================================ -->
-<section class="nn-sec nn-trust">
+<section class="nn-sec nn-trust-new">
   <div class="container text-center">
-    <span class="nn-eyebrow nn-eyebrow--center"><span class="nn-eyebrow__line"></span>Recognised &middot; Certified
-      &middot; Trusted<span class="nn-eyebrow__line"></span></span>
-    <p class="nn-trust__lead">We are associated with</p>
-    <div class="nn-trust__logos">
-      <span class="nn-trust__logo"><i class="fa-solid fa-mountain-sun"></i> NTB</span>
-      <span class="nn-trust__logo"><i class="fa-solid fa-compass"></i> TAAN</span>
-      <span class="nn-trust__logo"><i class="fa-solid fa-shield-heart"></i> IPPG</span>
-      <span class="nn-trust__logo"><i class="fa-solid fa-leaf"></i> Leave No Trace</span>
-      <span class="nn-trust__logo"><i class="fa-solid fa-kit-medical"></i> CIWEC</span>
-      <span class="nn-trust__logo"><i class="fa-solid fa-earth-asia"></i> NMA</span>
+    <span class="nn-trust-new__eyebrow">RECOGNISED &middot; CERTIFIED &middot; TRUSTED</span>
+    <h2 class="nn-trust-new__title">We are associated with</h2>
+    <div class="nn-trust-new__divider"></div>
+    <div class="nn-trust-new__logos">
+      <!-- Using public URLs for the logos as placeholders, user should replace with their own local files if needed -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Emblem_of_Nepal.svg" alt="Government of Nepal" class="nn-trust-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Nepal_Tourism_Board_logo.svg/1200px-Nepal_Tourism_Board_logo.svg.png" alt="NTB" class="nn-trust-logo">
+      <img src="https://www.taan.org.np/images/taan-logo.png" alt="TAAN" class="nn-trust-logo">
+      <img src="https://www.nepalmountaineering.org/img/logo.png" alt="NMA" class="nn-trust-logo">
+      <img src="https://placehold.co/150x80/transparent/4A5B53?text=VITOF-Nepal" alt="VITOF" class="nn-trust-logo">
     </div>
   </div>
 </section>

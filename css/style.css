@@ -1835,38 +1835,49 @@ body {
 }
 
 /* ---------- 13. TRUST ---------- */
-.nn-trust {
+.nn-trust-new {
     background: var(--nn-cream);
-    padding: 64px 0;
+    padding: 80px 0;
 }
 
-.nn-trust__lead {
+.nn-trust-new__eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #4A5B53;
+    display: block;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.nn-trust-new__title {
     font-family: 'Newsreader', serif;
-    font-style: italic;
-    font-size: 20px;
-    color: var(--nn-navy-2);
-    margin: 4px 0 28px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #10253F;
+    margin: 0 0 20px;
 }
 
-.nn-trust__logos {
+.nn-trust-new__divider {
+    width: 60px;
+    height: 2px;
+    background: #4A5B53;
+    margin: 0 auto 40px;
+}
+
+.nn-trust-new__logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 18px 40px;
-}
-
-.nn-trust__logo {
-    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    font-size: 18px;
-    color: #8a93a0;
-    letter-spacing: .5px;
+    gap: 60px;
 }
 
-.nn-trust__logo i {
-    font-size: 22px;
+.nn-trust-logo {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 /* ===================== RESPONSIVE ===================== */
