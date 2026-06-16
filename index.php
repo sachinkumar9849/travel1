@@ -650,27 +650,37 @@
      ============================================================ -->
 <section class="nn-sec nn-insta">
   <div class="container">
-    <div class="nn-insta__head">
-      <span class="nn-eyebrow"><span class="nn-eyebrow__line"></span>Follow Us on Instagram</span>
-      <a href="#" class="nn-btn nn-btn--outline"><i class="fa-brands fa-instagram"></i> Follow Us</a>
+    <div class="nn-section-head-inline">
+      <h2 class="nn-h2-serif">FOLLOW US ON INSTAGRAM</h2>
+      <a href="#" class="nn-link-small">Follow Us</a>
     </div>
-    <div class="row g-3">
-      <?php
-      $posts = [
-        ['photo-1486911278844-a81c5267e227', 'Machhapuchhre &mdash; the sacred mountain no one is allowed to climb &mdash; standing guard right behind our trekker.'],
-        ['photo-1470770841072-f978cf4d019e', 'There\'s a version of Nepal that most travellers never get to see. Not from the trail, not from a viewpoint &mdash; but from eye level.'],
-        ['photo-1544735716-392fe2489ffa', 'Five days into Mardi Himal and the morning broke clean. Our guide Pemba pointed to a ridge we hadn\'t planned to take.'],
-      ];
-      foreach ($posts as $p): ?>
-        <div class="col-md-4">
-          <a href="#" class="nn-igcard"
-            style="background-image:url('https://images.unsplash.com/<?= $p[0] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');">
-            <span class="nn-igcard__shade"></span>
-            <span class="nn-igcard__ig"><i class="fa-brands fa-instagram"></i></span>
-            <span class="nn-igcard__cap"><?= $p[1] ?></span>
-          </a>
+
+    <div class="nn-rel">
+      <div class="swiper nn-ig-swiper">
+        <div class="swiper-wrapper">
+          <?php
+          $posts = [
+            ['photo-1486911278844-a81c5267e227', 'Machhapuchhre &mdash; the sacred mountain no one is allowed to climb &mdash; standing guard right behind our trekker. This is the moment that...', 'photo-1486911278844-a81c5267e227'],
+            ['photo-1470770841072-f978cf4d019e', 'There\'s a version of Nepal that most travellers never get to see. Not from the trail, not from a viewpoint, not from a helicopter. But from eye-lev...', 'photo-1470770841072-f978cf4d019e'],
+            ['photo-1544735716-392fe2489ffa', 'Five days into Mardi Himal and the morning broke clean. Our guide Pemba pointed to a ridge we hadn\'t planned to take &mdash; and that\'s how the best...', 'photo-1544735716-392fe2489ffa'],
+          ];
+          foreach ($posts as $p): ?>
+            <div class="swiper-slide">
+              <a href="#" class="nn-igcard-new">
+                <div class="nn-igcard-new__img" style="background-image:url('https://images.unsplash.com/<?= $p[0] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></div>
+                <div class="nn-igcard-new__body">
+                  <div class="nn-igcard-new__avatar">
+                    <img src="https://images.unsplash.com/<?= $p[2] ?>?auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Avatar">
+                  </div>
+                  <p class="nn-igcard-new__text"><?= $p[1] ?></p>
+                </div>
+              </a>
+            </div>
+          <?php endforeach; ?>
         </div>
-      <?php endforeach; ?>
+      </div>
+      <button class="nn-arrow nn-ig-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+      <button class="nn-arrow nn-ig-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
   </div>
 </section>
@@ -681,36 +691,43 @@
      ============================================================ -->
 <section class="nn-sec nn-blogs">
   <div class="container">
-    <div class="nn-insta__head">
-      <div>
-        <span class="nn-eyebrow"><span class="nn-eyebrow__line"></span>Journal</span>
-        <h2 class="nn-h2 mb-0">Blogs &amp; Daily Updates</h2>
-      </div>
-      <a href="blog.php" class="nn-link">Browse All <i class="fa-solid fa-arrow-right"></i></a>
+    <div class="nn-section-head-inline">
+      <h2 class="nn-h2-serif" style="text-transform: none;">Blogs &amp; Daily Updates</h2>
+      <a href="blog.php" class="nn-link-small">browse all</a>
     </div>
-    <div class="row g-4">
-      <?php
-      $blogs = [
-        ['How to Complete Mardi Himal Trek in 3 Days', '2026.11.18', '7 min read', 'Pemba Sherpa', '&ldquo;The site made the right route feel obvious before we even messaged.&rdquo; A fast, honest plan for the Mardi Himal ridge.', 'photo-1551632811-561732d1e306'],
-        ['EBC vs Annapurna Base Camp &mdash; Which to Walk First?', '2026.11.18', '4 min read', 'Sita Gurung', 'A guide who has walked both routes 40+ times each weighs in on altitude, scenery, season, and which trek belongs at the top of your list.', 'photo-1454496522488-7a8e488e8606'],
-        ['Packing for the Manaslu Circuit: A Real Guide\'s List', '2026.10.30', '6 min read', 'Mohan Bhandari', 'What to actually bring (and what you can skip) for 16 days at altitude. Compiled from 12 years of running this route.', 'photo-1506905925346-21bda4d32df4'],
-      ];
-      foreach ($blogs as $bl): ?>
-        <div class="col-md-4">
-          <article class="nn-blog">
-            <a href="blog-detail.php" class="nn-blog__img"
-              style="background-image:url('https://images.unsplash.com/<?= $bl[5] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></a>
-            <div class="nn-blog__body">
-              <div class="nn-blog__meta"><span><?= $bl[1] ?></span> &middot; <span><?= $bl[2] ?></span> &middot;
-                <span><?= $bl[3] ?></span>
-              </div>
-              <h3 class="nn-blog__title"><a href="blog-detail.php"><?= $bl[0] ?></a></h3>
-              <p class="nn-blog__excerpt"><?= $bl[4] ?></p>
-              <a href="blog-detail.php" class="nn-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+    
+    <div class="nn-rel">
+      <div class="swiper nn-blog-swiper">
+        <div class="swiper-wrapper">
+          <?php
+          $blogs = [
+            ['How to Complete Mardi Himal Trek in 3 Days', '2026.11.18', '7 min read', 'Pemba Sherpa', '&ldquo;The site made the right route feel obvious before we even messaged.&rdquo; &ldquo;The site made the right route feel obvious before we even messaged.&rdquo;', 'photo-1551632811-561732d1e306'],
+            ['EBC vs Annapurna Base Camp &mdash; Which to Walk First?', '2026.11.18', '7 min read', 'Pemba Sherpa', 'A guide who has walked both routes 40+ times each weighs in on altitude, scenery, season, and which trek belongs at the top of your list.', 'photo-1454496522488-7a8e488e8606'],
+            ['Packing for the Manaslu Circuit: A Real Guide\'s List', '2026.10.30', '4 min read', 'Sita Gurung', 'What to actually bring (and what you can skip) for 16 days at altitude. Compiled from 12 years of running this route.', 'photo-1506905925346-21bda4d32df4'],
+          ];
+          foreach ($blogs as $bl): ?>
+            <div class="swiper-slide">
+              <article class="nn-blog-new">
+                <a href="blog-detail.php" class="nn-blog-new__img" style="background-image:url('https://images.unsplash.com/<?= $bl[5] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></a>
+                <div class="nn-blog-new__body">
+                  <div class="nn-blog-new__meta">
+                    <span class="nn-blog-new__date"><?= $bl[1] ?></span>
+                    <span class="nn-blog-new__readtime"><i class="fa-regular fa-clock"></i> <?= $bl[2] ?></span>
+                    <span class="nn-blog-new__author"><i class="fa-regular fa-user"></i> <?= $bl[3] ?></span>
+                  </div>
+                  <h3 class="nn-blog-new__title"><a href="blog-detail.php"><?= $bl[0] ?></a></h3>
+                  <p class="nn-blog-new__excerpt"><?= $bl[4] ?></p>
+                  <div class="nn-blog-new__foot">
+                    <a href="blog-detail.php" class="nn-btn-outline-small">Read More</a>
+                  </div>
+                </div>
+              </article>
             </div>
-          </article>
+          <?php endforeach; ?>
         </div>
-      <?php endforeach; ?>
+      </div>
+      <button class="nn-arrow nn-blog-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+      <button class="nn-arrow nn-blog-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
   </div>
 </section>
@@ -754,6 +771,8 @@
       new Swiper('.nn-rev-swiper', { slidesPerView: 1, spaceBetween: 24, navigation: { prevEl: '.nn-rev-prev', nextEl: '.nn-rev-next' }, breakpoints: { 768: { slidesPerView: 2 }, 1100: { slidesPerView: 3 } } });
       new Swiper('.nn-trev-ta-swiper', common('.nn-trev-ta-swiper', '.nn-ta-prev', '.nn-ta-next'));
       new Swiper('.nn-trev-go-swiper', common('.nn-trev-go-swiper', '.nn-gr-prev', '.nn-gr-next'));
+      new Swiper('.nn-ig-swiper', common('.nn-ig-swiper', '.nn-ig-prev', '.nn-ig-next'));
+      new Swiper('.nn-blog-swiper', common('.nn-blog-swiper', '.nn-blog-prev', '.nn-blog-next'));
     }
 
     // Simple tab + chip active toggling (visual)
