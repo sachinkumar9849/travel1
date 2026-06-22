@@ -556,23 +556,22 @@
 </section>
 
 <!-- CTA -->
-<section class="py-5 mb-5 mx-3 mx-lg-auto rounded-5 text-center shadow"
-    style="background: linear-gradient(180deg, #012A47 0%, #061928 100%); color: white; max-width: 1100px;">
-    <div class="container py-5 my-3">
-        <span class="nn-eyebrow nn-eyebrow--light" style="color: #FFB800; font-size: 13px; letter-spacing: 3px;">START
-            YOUR JOURNEY</span>
-        <h2 class="nn-h2 nn-h2--light mt-3 mb-4 mx-auto" style="max-width: 600px; font-size: 42px;">Let's plan your <em
-                style="color: #FFB800; font-family: 'Newsreader', serif; font-style: italic;">Himalayan journey</em>
+<section class="py-5 mb-5 mx-3 mx-lg-auto rounded-4 text-center shadow-lg"
+    style="background: linear-gradient(180deg, #012A47 0%, #061928 100%); color: white; max-width: 1200px; position: relative; overflow: hidden;">
+    <div class="container py-5 my-4 position-relative" style="z-index: 1;">
+        <span class="d-block mb-3" style="color: #CFA052; font-family: 'Newsreader', serif; font-style: italic; font-size: 24px;">Come as a guest,</span>
+        <h2 class="mb-4 mx-auto" style="max-width: 600px; font-size: 42px; font-family: 'Newsreader', serif; font-weight: 400;">
+            Let's plan your <em style="color: #CFA052; font-style: italic;">Himalayan journey</em>
         </h2>
-        <p class="text-white-50 mb-5 mx-auto" style="max-width: 550px; font-size: 16px; line-height: 1.6;">Get in touch
-            with our experts to start planning your next adventure. We're here to answer all your questions and craft
-            the perfect itinerary.</p>
+        <p class="mb-5 mx-auto" style="max-width: 550px; font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+            Tell us where you'd like to go and how you like to travel — our local team in Kathmandu and Pokhara will shape the rest, responsibly and memorably.
+        </p>
 
         <div class="d-flex justify-content-center gap-3">
-            <a href="#" class="btn px-5 py-3 rounded-pill fw-bold"
-                style="background-color: #FFB800; color: #012A47; border: none; font-size: 15px;">Enquire Now</a>
-            <a href="#" class="btn btn-outline-light px-5 py-3 rounded-pill fw-bold" style="font-size: 15px;">Contact
-                Us</a>
+            <a href="#" class="btn px-4 py-2 rounded-pill"
+                style="background-color: #CFA052; color: #ffffff; border: none; font-size: 14px; font-weight: 600; min-width: 140px;">Plan Your Trip</a>
+            <a href="#" class="btn rounded-pill" 
+                style="background-color: rgba(255,255,255,0.05); color: #ffffff; border: 1px solid rgba(255,255,255,0.2); font-size: 14px; font-weight: 600; min-width: 140px; padding: 10px 24px;">Contact Us</a>
         </div>
     </div>
 </section>
