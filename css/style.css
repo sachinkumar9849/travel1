@@ -1737,12 +1737,14 @@ body {
     color: #eaeaea;
 }
 
-.nn-ig-prev, .nn-blog-prev {
+.nn-ig-prev,
+.nn-blog-prev {
     left: -20px;
     top: calc(50% - 20px);
 }
 
-.nn-ig-next, .nn-blog-next {
+.nn-ig-next,
+.nn-blog-next {
     right: -20px;
     top: calc(50% - 20px);
 }
@@ -2524,4 +2526,289 @@ section.nn-sec.nn-beyond {
 .nn-trev-detail {
     font-size: 11px;
     color: #8C968F;
+}
+
+/* ---------- FOOTER ---------- */
+.nn-footer {
+    background-color: #032139;
+    color: #ffffff;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+}
+
+.nn-footer-logo img {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.nn-footer-text {
+    font-size: 13px;
+    color: #b3c2d1;
+    line-height: 1.6;
+}
+
+.nn-footer-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #FFB800;
+}
+
+.nn-footer-top .nn-footer-title {
+    color: #FFB800;
+}
+
+.nn-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nn-footer-links li {
+    margin-bottom: 10px;
+}
+
+.nn-footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nn-footer-links a:hover {
+    color: #FFB800;
+}
+
+.nn-footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nn-footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.nn-footer-contact li i {
+    margin-top: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 16px;
+    text-align: center;
+}
+
+.nn-footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nn-footer-middle {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nn-footer-awards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nn-award-badge {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.nn-award-icon-wrap {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.nn-footer-rep-box {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.nn-footer-rep-box .nn-footer-title {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.nn-rep-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nn-rep-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nn-rep-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nn-rep-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #b3c2d1;
+}
+
+.nn-rep-info strong {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.nn-rep-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nn-rep-info i {
+    font-size: 14px;
+}
+
+.nn-footer-payments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nn-footer-payments img {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nn-footer-bottom {
+    padding: 40px 0 60px;
+}
+
+.nn-social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nn-social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* background: #ffffff; */
+    border-radius: 8px;
+    color: #032139;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.nn-social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.nn-social-links a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.nn-insurance-partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nn-insurance-partners img {
+    height: 80px;
+    width: auto;
+}
+
+.nn-newsletter-text {
+    font-size: 13px;
+    color: #b3c2d1;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.nn-newsletter-form {
+    display: flex;
+    gap: 10px;
+}
+
+.nn-newsletter-form input {
+    flex: 1;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.nn-newsletter-form input::placeholder {
+    color: #b3c2d1;
+}
+
+.nn-newsletter-form button {
+    background: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.nn-newsletter-form button:hover {
+    background: #218838;
+}
+
+.nn-footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    font-size: 12px;
+    color: #8c9eae;
+}
+
+.ourValues img {
+    width: 71px;
+}
+
+h4.nn-body-heading {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
 }

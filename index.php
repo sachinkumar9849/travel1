@@ -667,10 +667,13 @@
           foreach ($posts as $p): ?>
             <div class="swiper-slide">
               <a href="#" class="nn-igcard-new">
-                <div class="nn-igcard-new__img" style="background-image:url('https://images.unsplash.com/<?= $p[0] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></div>
+                <div class="nn-igcard-new__img"
+                  style="background-image:url('https://images.unsplash.com/<?= $p[0] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');">
+                </div>
                 <div class="nn-igcard-new__body">
                   <div class="nn-igcard-new__avatar">
-                    <img src="https://images.unsplash.com/<?= $p[2] ?>?auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Avatar">
+                    <img src="https://images.unsplash.com/<?= $p[2] ?>?auto=format&amp;fit=crop&amp;w=100&amp;q=80"
+                      alt="Avatar">
                   </div>
                   <p class="nn-igcard-new__text"><?= $p[1] ?></p>
                 </div>
@@ -695,7 +698,7 @@
       <h2 class="nn-h2-serif" style="text-transform: none;">Blogs &amp; Daily Updates</h2>
       <a href="blog.php" class="nn-link-small">browse all</a>
     </div>
-    
+
     <div class="nn-rel">
       <div class="swiper nn-blog-swiper">
         <div class="swiper-wrapper">
@@ -708,7 +711,8 @@
           foreach ($blogs as $bl): ?>
             <div class="swiper-slide">
               <article class="nn-blog-new">
-                <a href="blog-detail.php" class="nn-blog-new__img" style="background-image:url('https://images.unsplash.com/<?= $bl[5] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></a>
+                <a href="blog-detail.php" class="nn-blog-new__img"
+                  style="background-image:url('https://images.unsplash.com/<?= $bl[5] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');"></a>
                 <div class="nn-blog-new__body">
                   <div class="nn-blog-new__meta">
                     <span class="nn-blog-new__date"><?= $bl[1] ?></span>
@@ -736,15 +740,18 @@
 <!-- ============================================================
      13. ASSOCIATED / TRUST
      ============================================================ -->
-<section class="nn-sec nn-trust-new">
+<section class="nn-sec nn-trust-new bg-white">
   <div class="container text-center">
     <span class="nn-trust-new__eyebrow">RECOGNISED &middot; CERTIFIED &middot; TRUSTED</span>
     <h2 class="nn-trust-new__title">We are associated with</h2>
     <div class="nn-trust-new__divider"></div>
     <div class="nn-trust-new__logos">
       <!-- Using public URLs for the logos as placeholders, user should replace with their own local files if needed -->
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Emblem_of_Nepal.svg" alt="Government of Nepal" class="nn-trust-logo">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Nepal_Tourism_Board_logo.svg/1200px-Nepal_Tourism_Board_logo.svg.png" alt="NTB" class="nn-trust-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Emblem_of_Nepal.svg" alt="Government of Nepal"
+        class="nn-trust-logo">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Nepal_Tourism_Board_logo.svg/1200px-Nepal_Tourism_Board_logo.svg.png"
+        alt="NTB" class="nn-trust-logo">
       <img src="https://www.taan.org.np/images/taan-logo.png" alt="TAAN" class="nn-trust-logo">
       <img src="https://www.nepalmountaineering.org/img/logo.png" alt="NMA" class="nn-trust-logo">
       <img src="https://placehold.co/150x80/transparent/4A5B53?text=VITOF-Nepal" alt="VITOF" class="nn-trust-logo">

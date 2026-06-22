@@ -1,4 +1,152 @@
 <!-- 14. Footer Section -->
+<footer class="nn-footer">
+  <div class="nn-footer-top container">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <a href="index.php" class="nn-footer-logo">
+          <img src="image/logo.png" alt="North Nepal Trek & Expedition">
+        </a>
+        <p class="nn-footer-text">A small Nepali-owned trekking company based in Thamel, Kathmandu — running since 2015.</p>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <h4 class="nn-footer-title">Company</h4>
+        <ul class="nn-footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Why book with us?</a></li>
+          <li><a href="#">Payment & Booking</a></li>
+          <li><a href="#">Legal Documents</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Packing List</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h4 class="nn-footer-title">Helpful Link</h4>
+        <ul class="nn-footer-links">
+          <li><a href="#">Travel Guide</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Partner with us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h4 class="nn-footer-title">Location & Contact Address</h4>
+        <ul class="nn-footer-contact">
+          <li><i class="fa-brands fa-whatsapp"></i> <div>+977 9856016904<br>+977 9846816904</div></li>
+          <li><i class="fa-solid fa-phone"></i> <div>+977 61 454885</div></li>
+          <li><i class="fa-regular fa-clock"></i> <div>9:30 am - 8:00 pm</div></li>
+          <li><i class="fa-solid fa-location-dot"></i> <div>13th Street Lakeside,<br>Pokhara-6 (Head Office)</div></li>
+          <li><i class="fa-solid fa-location-dot"></i> <div>Bhagwan Bahal Thamel,<br>Kathmandu (Branch Office)</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="nn-footer-middle container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-4">
+        <h4 class="nn-footer-title text-white">Tripadvisor Travellers' Choice Awards</h4>
+        <div class="nn-footer-awards">
+          <div class="nn-award-badge">
+            <div class="nn-award-icon-wrap"><i class="fa-brands fa-tripadvisor"></i></div>
+            <span>2025</span>
+          </div>
+          <div class="nn-award-badge">
+            <div class="nn-award-icon-wrap"><i class="fa-brands fa-tripadvisor"></i></div>
+            <span>2024</span>
+          </div>
+          <div class="nn-award-badge">
+            <div class="nn-award-icon-wrap"><i class="fa-brands fa-tripadvisor"></i></div>
+            <span>2023</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="nn-footer-rep-box">
+          <h4 class="nn-footer-title" style="color: #FFB800;">Speak with our worldwide representative</h4>
+          <div class="nn-rep-list">
+            <div class="nn-rep-item">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Nepal Rep" class="nn-rep-avatar">
+              <div class="nn-rep-info">
+                <strong>Nepal</strong>
+                <span>Mohan Raj Bhandari +977 9856016904 <i class="fa-brands fa-whatsapp text-success"></i></span>
+              </div>
+            </div>
+            <div class="nn-rep-item">
+              <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="USA Rep" class="nn-rep-avatar">
+              <div class="nn-rep-info">
+                <strong>USA</strong>
+                <span>Mohan Raj Bhandari +977 9856016904 <i class="fa-brands fa-whatsapp text-success"></i></span>
+              </div>
+            </div>
+            <div class="nn-rep-item">
+              <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Canada Rep" class="nn-rep-avatar">
+              <div class="nn-rep-info">
+                <strong>CANDA</strong>
+                <span>Mohan Raj Bhandari +977 9856016904 <i class="fa-brands fa-whatsapp text-success"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 text-center">
+        <h4 class="nn-footer-title" style="color: #FFB800;">Safe Payments</h4>
+        <div class="nn-footer-payments">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+          <img src="image/masterCard.svg" alt="Mastercard">
+          <img src="image/american-express.svg" alt="American Express">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nn-footer-bottom container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-4">
+        <h4 class="nn-footer-title" style="color: #FFB800;">Follow Us on Social Media</h4>
+        <div class="nn-social-links">
+          <a href="#"><img src="image/instagram.svg" alt="Instagram"></a>
+          <a href="#"><img src="image/facbook.svg" alt="Facebook"></a>
+          <a href="#"><img src="image/ticktok.svg" alt="Tiktok"></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 text-center">
+        <h4 class="nn-footer-title" style="color: #FFB800;">Insurance Partner</h4>
+        <div class="nn-insurance-partners">
+          <img src="image/safe-travel.svg" alt="Safe Travel Partner">
+          <img src="image/safe-travel.svg" alt="Safe Travel Partner">
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h4 class="nn-footer-title" style="color: #FFB800;">Monthly Newsletter</h4>
+        <p class="nn-newsletter-text">Three trail dispatches a month from our guides — weather, conditions, route updates.</p>
+        <form class="nn-newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="you@example.com" required>
+          <button type="submit" class="btn btn-success" style="background-color: #28a745;">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="nn-footer-copyright">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <span>Company Registered No: 162883/073 · VAT No: 606006705 · Tourism License: 179</span>
+      <span>Copyright ©2026 North Nepal Travel & Tours, All Rights Reserved</span>
+    </div>
+  </div>
+</footer>
+
 
 <!-- Bootstrap 5 Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
