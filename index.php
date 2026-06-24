@@ -14,7 +14,7 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
-      <a href="#" class="nn-hero__cta">Confused?&nbsp;We Guide You <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="guidePage.php" class="nn-hero__cta">Confused?&nbsp;We Guide You <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
@@ -65,7 +65,7 @@
                 <p class="nn-dcard__desc">Eight of the world's fourteen 8,000-metre peaks. Teahouse trails,
                   restricted-area treks, and the only country where you can summit at dawn and be in jungle by dinner.
                 </p>
-                <div class="nn-dcard__foot"><span class="nn-dcard__meta">62 Trips &middot; 9 Regions</span><a href="#"
+                <div class="nn-dcard__foot"><span class="nn-dcard__meta">62 Trips &middot; 9 Regions</span><a href="short-treks.php"
                     class="nn-dcard__view">View <span class="nn-dcard__arrow"><i
                         class="fa-solid fa-arrow-right"></i></span></a></div>
               </div>
@@ -80,7 +80,7 @@
                 <h3 class="nn-dcard__title">Tibet</h3>
                 <p class="nn-dcard__desc">The high plateau &mdash; Lhasa, Everest North Base Camp, Kailash kora. All
                   trips on our group-permit framework.</p>
-                <div class="nn-dcard__foot"><span class="nn-dcard__meta">9 Trips</span><a href="#"
+                <div class="nn-dcard__foot"><span class="nn-dcard__meta">9 Trips</span><a href="short-treks.php"
                     class="nn-dcard__view">View <span class="nn-dcard__arrow"><i
                         class="fa-solid fa-arrow-right"></i></span></a></div>
               </div>
@@ -93,7 +93,7 @@
                 <h3 class="nn-dcard__title">Bhutan</h3>
                 <p class="nn-dcard__desc">Druk Path, Jomolhari, Tiger's Nest. A measured pace through dzongs,
                   prayer-flag passes, and the last Himalayan kingdom.</p>
-                <div class="nn-dcard__foot"><span class="nn-dcard__meta">7 Trips</span><a href="#"
+                <div class="nn-dcard__foot"><span class="nn-dcard__meta">7 Trips</span><a href="short-treks.php"
                     class="nn-dcard__view">View <span class="nn-dcard__arrow"><i
                         class="fa-solid fa-arrow-right"></i></span></a></div>
               </div>
@@ -133,7 +133,7 @@
           still build every trek the way we did the first one: a phone call, a few questions, and a route drawn from
           twenty years of actually walking the trails.</p>
         <div class="nn-story__bottom">
-          <a href="#" class="nn-btn nn-btn--outline">Read the Full Story <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="about.php" class="nn-btn nn-btn--outline">Read the Full Story <i class="fa-solid fa-arrow-right"></i></a>
           <div class="nn-sign"><strong>Mohan Raj Bhandari</strong><span>Managing Director</span></div>
         </div>
       </div>
@@ -189,7 +189,7 @@
                   <p class="nn-tcard__desc"><?= $t[5] ?></p>
                   <div class="nn-tcard__foot">
                     <span class="nn-price"><span>From</span> $<?= $t[6] ?> <small>pp</small></span>
-                    <a href="#" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="package-detail.php" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </article>
@@ -240,7 +240,7 @@
         ['Langtang', '8 treks', 'photo-1470770841072-f978cf4d019e'],
       ];
       foreach ($regions as $r): ?>
-        <a href="#" class="nn-rcard"
+        <a href="short-treks.php" class="nn-rcard"
           style="background-image:url('https://images.unsplash.com/<?= $r[2] ?>?auto=format&amp;fit=crop&amp;w=700&amp;q=80');">
           <span class="nn-rcard__shade"></span>
           <span class="nn-rcard__body"><span class="nn-rcard__name"><?= $r[0] ?></span><span
@@ -358,7 +358,7 @@
             <div class="nn-bcard__body">
               <h3 class="nn-bcard__title"><?= $b[0] ?></h3>
               <p class="nn-bcard__desc"><?= $b[3] ?></p>
-              <a href="#" class="nn-link"><?= $b[4] ?> <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="blog-detail.php" class="nn-link"><?= $b[4] ?> <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </article>
         </div>
@@ -413,7 +413,7 @@
                   <p class="nn-tcard__desc"><?= $h[5] ?></p>
                   <div class="nn-tcard__foot">
                     <span class="nn-price"><span>From</span> $<?= $h[6] ?> <small>pp</small></span>
-                    <a href="#" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="everest-heli-tour.php" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </article>

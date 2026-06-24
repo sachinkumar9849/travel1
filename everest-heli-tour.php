@@ -7,9 +7,9 @@
             <div class="heli-banner-breadcrumb">
                 <a href="index.php">home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">heli tours</a>
+                <a href="everest-heli-tour.php">heli tours</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">everest region</a>
+                <a href="package-detail.php">everest region</a>
             </div>
             <div class="heli-banner-badges">
                 <div class="heli-badge heli-badge-review">
@@ -208,7 +208,7 @@
                     <div class="heli-gcard-img">
                         <img src="image/smallImg.svg" alt="Pheriche & the high valley">
                         <div class="heli-gcard-see-all">
-                            <a href="#" class="btn-see-all-photos">see all photos</a>
+                            <a href="#photo-gallery" class="btn-see-all-photos">see all photos</a>
                         </div>
                     </div>
                     <div class="heli-gcard-info">
@@ -337,8 +337,8 @@
                         <span class="price-lbl">Per Person</span>
                     </div>
                     <div class="footer-actions">
-                        <a href="#" class="btn-book-now">Book Now <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="#" class="btn-private-inq-outline">Private Inquiry</a>
+                        <a href="guidePage.php" class="btn-book-now">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="guidePage.php" class="btn-private-inq-outline">Private Inquiry</a>
                     </div>
                 </div>
             </div>
@@ -814,7 +814,7 @@
             <div class="more-tours-grid">
 
                 <!-- Card 1 -->
-                <div class="mtour-card">
+                <a href="everest-heli-tour.php" class="mtour-card" style="text-decoration:none; color:inherit;">
                     <div class="mtour-img-wrap">
                         <img src="image/more.svg" alt="Annapurna Base Camp Helicopter Tour">
                         <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
@@ -840,10 +840,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Card 2 -->
-                <div class="mtour-card">
+                <a href="everest-heli-tour.php" class="mtour-card" style="text-decoration:none; color:inherit;">
                     <div class="mtour-img-wrap">
                         <img src="image/more.svg" alt="PoonHill–Ghandruk Helicopter Landing Tour">
                         <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
@@ -869,10 +869,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Card 3 -->
-                <div class="mtour-card">
+                <a href="everest-heli-tour.php" class="mtour-card" style="text-decoration:none; color:inherit;">
                     <div class="mtour-img-wrap">
                         <img src="image/more.svg" alt="Muktinath Helicopter Tour from Pokhara">
                         <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
@@ -898,7 +898,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
             </div>
         </div>

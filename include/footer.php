@@ -13,27 +13,27 @@
       <div class="col-lg-3 col-md-6">
         <h4 class="nn-footer-title">Company</h4>
         <ul class="nn-footer-links">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Why book with us?</a></li>
-          <li><a href="#">Payment & Booking</a></li>
-          <li><a href="#">Legal Documents</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Packing List</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="team.php">Our Team</a></li>
+          <li><a href="about.php">Why book with us?</a></li>
+          <li><a href="package-detail.php#upcoming-dates">Payment & Booking</a></li>
+          <li><a href="about.php">Legal Documents</a></li>
+          <li><a href="guidePage.php">Contact Us</a></li>
+          <li><a href="guidePage.php">Packing List</a></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <h4 class="nn-footer-title">Helpful Link</h4>
         <ul class="nn-footer-links">
-          <li><a href="#">Travel Guide</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Sitemap</a></li>
-          <li><a href="#">Partner with us</a></li>
-          <li><a href="#">Careers</a></li>
+          <li><a href="guidePage.php">Travel Guide</a></li>
+          <li><a href="adventure.php">Adventure</a></li>
+          <li><a href="short-treks.php">Short Treks</a></li>
+          <li><a href="package-detail.php#faq">FAQ</a></li>
+          <li><a href="everest-heli-tour.php">Heli Tours</a></li>
+          <li><a href="package-detail.php">Trek Packages</a></li>
+          <li><a href="guidePage.php">Partner with us</a></li>
+          <li><a href="team.php">Careers</a></li>
         </ul>
       </div>
 

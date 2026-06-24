@@ -7,9 +7,9 @@
             <div class="heli-banner-breadcrumb">
                 <a href="index.php">home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">heli tours</a>
+                <a href="adventure.php">adventure</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">everest region</a>
+                <a href="adventure.php">kushma bungee jump</a>
             </div>
             <div class="heli-banner-badges">
                 <div class="heli-badge heli-badge-review">
@@ -179,7 +179,7 @@
                                     <div class="heli-gcard-img">
                                         <img src="image/sushma.svg" alt="Pheriche & the high valley">
                                         <div class="heli-gcard-see-all">
-                                            <a href="#" class="btn-see-all-photos">see all photos</a>
+                                            <a href="#photo-gallery" class="btn-see-all-photos">see all photos</a>
                                         </div>
                                     </div>
                                     <div class="heli-gcard-info">
@@ -337,9 +337,9 @@
                                         <span class="price-lbl">Per Person</span>
                                     </div>
                                     <div class="footer-actions">
-                                        <a href="#" class="btn-book-now">Book Now <i
+                                        <a href="guidePage.php" class="btn-book-now">Book Now <i
                                                 class="fa-solid fa-arrow-right"></i></a>
-                                        <a href="#" class="btn-private-inq-outline">Private Inquiry</a>
+                                        <a href="guidePage.php" class="btn-private-inq-outline">Private Inquiry</a>
                                     </div>
                                 </div>
                             </div>
@@ -509,8 +509,8 @@
                             <li><i class="fa-solid fa-check"></i> Flexible Booking</li>
                             <li><i class="fa-solid fa-check"></i> Book Now, Pay Later</li>
                         </ul>
-                        <a href="#" class="adv-btn-book">Book Now</a>
-                        <a href="#" class="adv-btn-inquire">Inquire Now</a>
+                        <a href="guidePage.php" class="adv-btn-book">Book Now</a>
+                        <a href="guidePage.php" class="adv-btn-inquire">Inquire Now</a>
                     </div>
                 </div>
 

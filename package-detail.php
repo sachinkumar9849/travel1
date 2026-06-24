@@ -7,9 +7,9 @@
                 <h4 class="pkg-welcome">Welcome to,</h4>
                 <h1 class="pkg-title">Everest Base Camp Trek &ndash; 12 Days</h1>
                 <div class="pkg-breadcrumb">
-                    <a href="#">home</a> <span><i class="fa-solid fa-angle-right"></i></span>
-                    <a href="#">trekking</a> <span><i class="fa-solid fa-angle-right"></i></span>
-                    <a href="#">everest region</a>
+                    <a href="index.php">home</a> <span><i class="fa-solid fa-angle-right"></i></span>
+                    <a href="short-treks.php">trekking</a> <span><i class="fa-solid fa-angle-right"></i></span>
+                    <a href="short-treks.php">everest region</a>
                 </div>
             </div>
         </div>
@@ -193,7 +193,7 @@
                     <div class="glimpse-img-wrapper">
                         <img src="image/img/1.avif" alt="Everest Base Camp">
                         <div class="glimpse-overlay">
-                            <a href="#" class="btn-see-all">see all photo</a>
+                            <a href="#photo-gallery" class="btn-see-all">see all photo</a>
                         </div>
                     </div>
                     <div class="glimpse-info">
@@ -577,7 +577,7 @@
                         <span class="safety-icon"><i class="fa-solid fa-minus"></i></span>
                     </div>
                     <div class="safety-body">
-                        <p>Open state reveals action policy, not vague reassurance. <a href="#"
+                        <p>Open state reveals action policy, not vague reassurance. <a href="#safety-policy"
                                 class="see-more-link">See More</a></p>
                     </div>
                 </div>
@@ -786,6 +786,49 @@
                             response capacity.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Treks / You May Also Like -->
+    <section class="package-related-section" style="padding: 60px 0;">
+        <div class="container">
+            <div class="nn-section-head-inline">
+                <h2 class="nn-h2-serif" style="text-transform: none;">You May Also Like</h2>
+                <a href="short-treks.php" class="nn-link-small">browse all treks</a>
+            </div>
+            <div class="row g-4 mt-1">
+                <?php
+                $related = [
+                    ['Manaslu Circuit Trek', '16 days', '5,160m', '4.9', 'A restricted-area loop around the world\'s 8th highest peak.', '1,790', 'photo-1454496522488-7a8e488e8606', 'package-detail.php'],
+                    ['Annapurna Sanctuary Short', '5 days', '3,210m', '4.8', 'A condensed Annapurna for those short on time — Poon Hill sunrise.', '690', 'photo-1506905925346-21bda4d32df4', 'short-treks.php'],
+                    ['Everest Heli Tour', '1 day', '5,545m', '4.9', 'Stand at Everest Base Camp by breakfast and return the same day.', '1,090', 'photo-1486911278844-a81c5267e227', 'everest-heli-tour.php'],
+                    ['Bungee & Adventure', 'Half day', '160m', '4.8', 'Adrenaline activities — bungee, zip-line and canyon swing.', '120', 'photo-1551632811-561732d1e306', 'adventure.php'],
+                ];
+                foreach ($related as $r): ?>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="<?= $r[7] ?>" class="text-decoration-none">
+                            <article class="nn-tcard">
+                                <div class="nn-tcard__img"
+                                    style="background-image:url('https://images.unsplash.com/<?= $r[6] ?>?auto=format&amp;fit=crop&amp;w=800&amp;q=80');">
+                                    <span class="nn-tcard__tags"><span><i class="fa-regular fa-calendar"></i> <?= $r[1] ?></span><span><i
+                                                class="fa-solid fa-mountain"></i> <?= $r[2] ?></span></span>
+                                </div>
+                                <div class="nn-tcard__body">
+                                    <h3 class="nn-tcard__title"><?= $r[0] ?></h3>
+                                    <div class="nn-tcard__rating"><span class="nn-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                        <strong><?= $r[3] ?></strong>
+                                    </div>
+                                    <p class="nn-tcard__desc"><?= $r[4] ?></p>
+                                    <div class="nn-tcard__foot">
+                                        <span class="nn-price"><span>From</span> $<?= $r[5] ?> <small>pp</small></span>
+                                        <span class="nn-link">View <i class="fa-solid fa-arrow-right"></i></span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>

@@ -9,7 +9,7 @@
     content="Maya Disability &amp; Community Services is a premium, professional NDIS provider and community care support network providing disability support, aged care, mental health services, and community program engagement." />
 
   <!-- Favicon -->
-  <link rel="icon" href="image/logo.jpeg" type="image/jpeg" />
+  <link rel="icon" href="image/logo.png" type="image/png" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,34 +119,34 @@
 
         <ul class="nn-menu" id="nnMenu">
           <li class="has-dd">
-            <a href="#">Treks</a>
+            <a href="short-treks.php">Treks</a>
             <ul class="nn-dd">
-              <li><a href="#">Everest Region</a></li>
-              <li><a href="#">Annapurna Region</a></li>
-              <li><a href="#">Langtang Region</a></li>
-              <li><a href="#">Manaslu Region</a></li>
+              <li><a href="package-detail.php">Everest Region</a></li>
+              <li><a href="short-treks.php">Annapurna Region</a></li>
+              <li><a href="short-treks.php">Langtang Region</a></li>
+              <li><a href="short-treks.php">Manaslu Region</a></li>
             </ul>
           </li>
           <li class="has-dd">
-            <a href="#">Heli Tours</a>
+            <a href="everest-heli-tour.php">Heli Tours</a>
             <ul class="nn-dd">
-              <li><a href="#">Everest Heli Tour</a></li>
-              <li><a href="#">Annapurna Heli Tour</a></li>
-              <li><a href="#">Langtang Heli Tour</a></li>
+              <li><a href="everest-heli-tour.php">Everest Heli Tour</a></li>
+              <li><a href="everest-heli-tour.php">Annapurna Heli Tour</a></li>
+              <li><a href="everest-heli-tour.php">Langtang Heli Tour</a></li>
             </ul>
           </li>
           <li class="has-dd">
-            <a href="#">Peak Climbing</a>
+            <a href="adventure.php">Peak Climbing</a>
             <ul class="nn-dd">
-              <li><a href="#">Island Peak</a></li>
-              <li><a href="#">Mera Peak</a></li>
-              <li><a href="#">Lobuche Peak</a></li>
+              <li><a href="adventure.php">Island Peak</a></li>
+              <li><a href="adventure.php">Mera Peak</a></li>
+              <li><a href="adventure.php">Lobuche Peak</a></li>
             </ul>
           </li>
-          <li><a href="#">Tours</a></li>
-          <li><a href="#">Adventure</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="blog.php">Blog</a></li>
+          <li><a href="short-treks.php">Tours</a></li>
+          <li><a href="adventure.php">Adventure</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="guidePage.php">Travel Guide</a></li>
         </ul>
 
         <button class="nn-toggle" id="nnToggle" aria-label="Toggle menu">

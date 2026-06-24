@@ -6,7 +6,7 @@
 <section class="about-hero">
     <div class="about-breadcrumb">
         <div class="container">
-            <a href="#">home</a> <span>›</span> <a href="#">company</a> <span>›</span> <span>about us</span>
+            <a href="index.php">home</a> <span>›</span> <a href="about.php">company</a> <span>›</span> <span>about us</span>
         </div>
     </div>
     <div class="container">
@@ -349,7 +349,7 @@
                         style="background-color: #E8F5E9; font-size: 13px;">Rescue</span>
                 </div>
 
-                <a href="#" class="nn-link mt-2 d-inline-block">Meet Our Team <i
+                <a href="team.php" class="nn-link mt-2 d-inline-block">Meet Our Team <i
                         class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="col-lg-6">
@@ -568,9 +568,9 @@
         </p>
 
         <div class="d-flex justify-content-center gap-3">
-            <a href="#" class="btn px-4 py-2 rounded-pill"
+            <a href="guidePage.php" class="btn px-4 py-2 rounded-pill"
                 style="background-color: #CFA052; color: #ffffff; border: none; font-size: 14px; font-weight: 600; min-width: 140px;">Plan Your Trip</a>
-            <a href="#" class="btn rounded-pill" 
+            <a href="guidePage.php" class="btn rounded-pill"
                 style="background-color: rgba(255,255,255,0.05); color: #ffffff; border: 1px solid rgba(255,255,255,0.2); font-size: 14px; font-weight: 600; min-width: 140px; padding: 10px 24px;">Contact Us</a>
         </div>
     </div>

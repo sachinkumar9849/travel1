@@ -302,7 +302,7 @@ body {
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="st-breadcrumbs">
-                    <a href="#">Home</a> &rsaquo; <a href="#">Treks</a> &rsaquo; <strong>Short Treks</strong>
+                    <a href="index.php">Home</a> &rsaquo; <a href="short-treks.php">Treks</a> &rsaquo; <strong>Short Treks</strong>
                 </div>
                 <div class="st-category">TREK CATEGORY</div>
                 <h1 class="st-title">Short Treks <span>in Nepal</span></h1>
@@ -404,7 +404,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$650 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -434,7 +434,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$850 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -464,7 +464,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$750 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -495,7 +495,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$350 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -525,7 +525,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$420 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -555,7 +555,7 @@ body {
                     
                     <div class="trek-footer">
                         <div class="trek-price">$280 <span>/ person</span></div>
-                        <a href="#" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                        <a href="package-detail.php" class="btn-view">View Trek <i class="fa-solid fa-arrow-right-long ms-1"></i></a>
                     </div>
                 </div>
             </div>
