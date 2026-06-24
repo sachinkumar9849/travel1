@@ -18,12 +18,12 @@
     </div>
   </div>
 
-  <div class="nn-hero__badge" aria-label="10 Years of Excellence">
-    <span class="nn-badge-num">10</span>
-    <span class="nn-badge-text">Years of Excellence</span>
-  </div>
+
 
   <ul class="nn-hero__features">
+    <div class="nn-hero__badge" aria-label="10 Years of Excellence">
+      <img src="image/10.svg" alt="">
+    </div>
     <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-route"></i></span><span
         class="nn-feature__label">Customizable Itineraries</span></li>
     <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-person-hiking"></i></span><span
