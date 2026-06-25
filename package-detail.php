@@ -96,22 +96,26 @@
                         </div>
                     </div>
                 </div>
-                <nav class="pkg-sticky-nav">
-                    <ul>
-                        <li><a href="#overview" class="active">Overview</a></li>
-                        <li><a href="#photo-gallery">Photo Gallery</a></li>
-                        <li><a href="#itinerary">Itinerary</a></li>
-                        <li><a href="#itinerary-map">Itinerary & Map</a></li>
-                        <li><a href="#include-exclude">Include/Exclude</a></li>
-                        <li><a href="#review">Review</a></li>
-                        <li><a href="#safety-policy">Safety Policy</a></li>
-                        <li><a href="#review2">Review</a></li>
-                        <li><a href="#upcoming-dates">Upcoming datess</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </section>
+
+    <div class="pkg-sticky-nav-wrap" id="pkgSectionNav">
+        <div class="container">
+            <nav class="pkg-sticky-nav">
+                <ul>
+                    <li><a href="#overview" class="active">Overview</a></li>
+                    <li><a href="#photo-gallery">Photo Gallery</a></li>
+                    <li><a href="#itinerary">Itinerary</a></li>
+                    <li><a href="#include-exclude">Include/Exclude</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#safety-policy">Safety Policy</a></li>
+                    <li><a href="#upcoming-dates">Upcoming Dates</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <section class="package-overview-section" id="overview">
         <div class="container">
@@ -832,176 +836,6 @@
             </div>
         </div>
     </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Individual accordion items
-            const headers = document.querySelectorAll('.iti-day-header');
-            headers.forEach(header => {
-                header.style.cursor = 'pointer'; // Make it look clickable
-                header.addEventListener('click', function () {
-                    const day = this.closest('.iti-day');
-
-                    // Toggle current
-                    day.classList.toggle('expanded');
-
-                    // Toggle icon
-                    const icon = this.querySelector('.iti-toggle i');
-                    if (day.classList.contains('expanded')) {
-                        icon.classList.remove('fa-plus');
-                        icon.classList.add('fa-minus');
-                    } else {
-                        icon.classList.remove('fa-minus');
-                        icon.classList.add('fa-plus');
-                    }
-
-                    // Check if this is inside details-info section to update the toggle-all switch
-                    const detailsSection = this.closest('.package-details-info-section');
-                    if (detailsSection) {
-                        const allDays = detailsSection.querySelectorAll('.iti-day');
-                        const expandedDays = detailsSection.querySelectorAll('.iti-day.expanded');
-                        const toggleSwitch = detailsSection.querySelector('.toggle-switch');
-
-                        if (toggleSwitch) {
-                            if (allDays.length === expandedDays.length) {
-                                // All are expanded
-                                toggleSwitch.classList.add('active');
-                            } else {
-                                // Not all are expanded
-                                toggleSwitch.classList.remove('active');
-                            }
-                        }
-                    }
-                });
-            });
-
-            // Toggle all functionality for Detail Information section
-            const toggleAllBtn = document.querySelector('.toggle-all');
-            if (toggleAllBtn) {
-                toggleAllBtn.addEventListener('click', function () {
-                    const switchEl = this.querySelector('.toggle-switch');
-
-                    // Toggle the switch state
-                    switchEl.classList.toggle('active');
-
-                    const isActive = switchEl.classList.contains('active');
-
-                    // Find all accordion items in the details section
-                    const detailsSection = this.closest('.package-details-info-section');
-                    const detailDays = detailsSection.querySelectorAll('.iti-day');
-
-                    detailDays.forEach(day => {
-                        const icon = day.querySelector('.iti-toggle i');
-                        if (isActive) {
-                            day.classList.add('expanded');
-                            if (icon) {
-                                icon.classList.remove('fa-plus');
-                                icon.classList.add('fa-minus');
-                            }
-                        } else {
-                            day.classList.remove('expanded');
-                            if (icon) {
-                                icon.classList.remove('fa-minus');
-                                icon.classList.add('fa-plus');
-                            }
-                        }
-                    });
-                });
-            }
-
-            // Tabs functionality
-            const incTabs = document.querySelectorAll('.inc-tab');
-            const incLists = document.querySelectorAll('.inc-list');
-
-            incTabs.forEach(tab => {
-                tab.addEventListener('click', function () {
-                    // remove active from all tabs
-                    incTabs.forEach(t => t.classList.remove('active'));
-                    this.classList.add('active');
-
-                    // hide all lists
-                    incLists.forEach(list => list.style.display = 'none');
-
-                    // show target list
-                    const targetId = this.getAttribute('data-target') + '-list';
-                    const targetList = document.getElementById(targetId);
-                    if (targetList) {
-                        targetList.style.display = 'flex';
-                    }
-                });
-            });
-
-            // Safety Policy Accordion
-            const safetyHeaders = document.querySelectorAll('.safety-header');
-            safetyHeaders.forEach(header => {
-                header.addEventListener('click', function () {
-                    const currentItem = this.closest('.safety-item');
-                    const isExpanded = currentItem.classList.contains('expanded');
-
-                    // Collapse all safety items
-                    document.querySelectorAll('.safety-item').forEach(item => {
-                        item.classList.remove('expanded');
-                        const icon = item.querySelector('.safety-icon i');
-                        if (icon) {
-                            icon.classList.remove('fa-minus');
-                            icon.classList.add('fa-plus');
-                        }
-                    });
-
-                    // If the clicked one wasn't expanded, expand it
-                    if (!isExpanded) {
-                        currentItem.classList.add('expanded');
-                        const icon = this.querySelector('.safety-icon i');
-                        if (icon) {
-                            icon.classList.remove('fa-plus');
-                            icon.classList.add('fa-minus');
-                        }
-                    }
-                });
-            });
-
-            // Calendar Day Selection
-            const calDays = document.querySelectorAll('.cal-day');
-            calDays.forEach(day => {
-                if (!day.classList.contains('text-soldout')) {
-                    day.addEventListener('click', function () {
-                        // Remove selected from all other days
-                        calDays.forEach(d => d.classList.remove('selected'));
-                        this.classList.add('selected');
-                    });
-                }
-            });
-
-            // FAQ Accordion
-            const faqHeaders = document.querySelectorAll('.faq-header');
-            faqHeaders.forEach(header => {
-                header.addEventListener('click', function () {
-                    const currentItem = this.closest('.faq-item');
-                    const isExpanded = currentItem.classList.contains('expanded');
-
-                    // Collapse all faq items
-                    document.querySelectorAll('.faq-item').forEach(item => {
-                        item.classList.remove('expanded');
-                        const icon = item.querySelector('.faq-icon i');
-                        if (icon) {
-                            icon.classList.remove('fa-minus');
-                            icon.classList.add('fa-plus');
-                        }
-                    });
-
-                    // Toggle current item
-                    if (!isExpanded) {
-                        currentItem.classList.add('expanded');
-                        const icon = this.querySelector('.faq-icon i');
-                        if (icon) {
-                            icon.classList.remove('fa-plus');
-                            icon.classList.add('fa-minus');
-                        }
-                    }
-                });
-            });
-        });
-    </script>
 </main>
 
 <?php include 'include/footer.php'; ?>

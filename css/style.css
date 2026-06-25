@@ -2955,13 +2955,35 @@ h4.nn-body-heading {
     line-height: 1.3;
 }
 
+/* Sticky section navigation (scrollspy) */
+.pkg-sticky-nav-wrap {
+    position: sticky;
+    top: var(--pkg-header-offset, 0px);
+    z-index: 1020;
+    /* below the site header (1030) */
+    margin-top: 16px;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* When the bar pins under the header it goes full-bleed for a clean look */
+.pkg-sticky-nav-wrap.is-stuck {
+    background-color: #142a41;
+    box-shadow: 0 6px 22px rgba(10, 25, 41, 0.22);
+    margin-top: 0;
+}
+
 .pkg-sticky-nav {
     background-color: #142a41;
     /* Dark navy sticky bar */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(10, 25, 41, 0.16);
+    padding: 6px 10px;
+    transition: border-radius 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pkg-sticky-nav-wrap.is-stuck .pkg-sticky-nav {
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .pkg-sticky-nav ul {
@@ -2969,34 +2991,56 @@ h4.nn-body-heading {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    gap: 4px;
     width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.pkg-sticky-nav ul::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
 }
 
 .pkg-sticky-nav li {
     margin: 0;
+    flex: 0 0 auto;
 }
 
 .pkg-sticky-nav a {
     display: block;
-    padding: 12px 20px;
-    color: #fff;
+    padding: 10px 18px;
+    color: rgba(255, 255, 255, 0.82);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
-    transition: background 0.3s;
+    white-space: nowrap;
+    border-radius: 8px;
+    transition: background 0.25s ease, color 0.25s ease;
 }
 
-.pkg-sticky-nav a:hover,
+.pkg-sticky-nav a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
 .pkg-sticky-nav a.active {
     background-color: #1a8f4c;
     /* Green highlight */
-    border-radius: 8px;
-    padding: 6px 16px;
-    margin: 6px 4px;
+    color: #fff;
+}
+
+/* Offset anchored sections so they aren't hidden behind the sticky bars */
+.package-detail-page section[id] {
+    scroll-margin-top: var(--pkg-scroll-offset, 150px);
 }
 
 /* Overview Section */
@@ -3105,41 +3149,6 @@ h4.nn-body-heading {
     flex-shrink: 0;
 }
 
-.pkg-sticky-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.pkg-sticky-nav li {
-    margin: 0;
-}
-
-.pkg-sticky-nav a {
-    display: block;
-    padding: 15px 20px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    transition: background 0.3s;
-}
-
-.pkg-sticky-nav a:hover,
-.pkg-sticky-nav a.active {
-    background-color: #1a8f4c;
-    /* Green highlight */
-    border-radius: 5px;
-    padding: 5px 15px;
-    margin: 10px 5px;
-}
-
 @media (max-width: 991px) {
     .pkg-info-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -3155,10 +3164,18 @@ h4.nn-body-heading {
     .pkg-title {
         font-size: 36px;
     }
+}
+
+@media (max-width: 991px) {
+
+    /* On smaller screens the nav scrolls horizontally from the start */
+    .pkg-sticky-nav ul {
+        justify-content: flex-start;
+    }
 
     .pkg-sticky-nav a {
-        padding: 10px;
-        font-size: 12px;
+        padding: 9px 14px;
+        font-size: 13px;
     }
 }
 
@@ -5290,7 +5307,7 @@ h2.route_title {
 
 /* Right – Booking Card */
 .adv-book-card {
-    background: linear-gradient(160deg, #2563eb 0%, #1d4ed8 100%);
+    background: #2D7DDB;
     border-radius: 16px;
     padding: 28px 26px;
     display: flex;
@@ -5385,7 +5402,7 @@ h2.route_title {
     font-size: 16px;
     font-weight: 700;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 100px;
     text-decoration: none;
     margin-bottom: 12px;
     transition: background 0.2s;
@@ -5405,7 +5422,7 @@ h2.route_title {
     font-size: 16px;
     font-weight: 700;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 100px;
     text-decoration: none;
     transition: background 0.2s;
 }
