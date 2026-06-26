@@ -14,7 +14,8 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
-      <a href="guidePage.php" class="nn-hero__cta">Confused?&nbsp;We Guide You <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="guidePage.php" class="nn-hero__cta">Confused?&nbsp;We Guide You <i
+          class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 
@@ -24,14 +25,23 @@
     <div class="nn-hero__badge" aria-label="10 Years of Excellence">
       <img src="image/10.svg" alt="">
     </div>
-    <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-route"></i></span><span
-        class="nn-feature__label">Customizable Itineraries</span></li>
-    <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-person-hiking"></i></span><span
-        class="nn-feature__label">Guided Adventures</span></li>
-    <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-mountain-sun"></i></span><span
-        class="nn-feature__label">Local Trails</span></li>
-    <li class="nn-feature"><span class="nn-feature__icon"><i class="fa-solid fa-seedling"></i></span><span
-        class="nn-feature__label">Eco-Friendly Travel</span></li>
+    <li class="nn-feature"><span class="">
+
+        <img src="image/team/1.svg" alt="">
+    </li>
+    <li class="nn-feature"><span class="">
+
+        <img src="image/team/2.svg" alt="">
+    </li>
+    <li class="nn-feature"><span class="">
+
+        <img src="image/team/3.svg" alt="">
+    </li>
+    <li class="nn-feature"><span class="">
+
+        <img src="image/team/4.svg" alt="">
+    </li>
+
   </ul>
 </section>
 
@@ -56,8 +66,7 @@
       <div class="swiper nn-dest-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <article class="nn-dcard nn-dcard--photo"
-              style="background-image:url('https://images.unsplash.com/photo-1486911278844-a81c5267e227?auto=format&amp;fit=crop&amp;w=1000&amp;q=80');">
+            <article class="nn-dcard nn-dcard--photo" style="background-image:url('image/des/1.svg');">
               <div class="nn-dcard__shade"></div>
               <div class="nn-dcard__body">
                 <span class="nn-dcard__badge">Our Home</span>
@@ -65,15 +74,14 @@
                 <p class="nn-dcard__desc">Eight of the world's fourteen 8,000-metre peaks. Teahouse trails,
                   restricted-area treks, and the only country where you can summit at dawn and be in jungle by dinner.
                 </p>
-                <div class="nn-dcard__foot"><span class="nn-dcard__meta">62 Trips &middot; 9 Regions</span><a href="short-treks.php"
-                    class="nn-dcard__view">View <span class="nn-dcard__arrow"><i
+                <div class="nn-dcard__foot"><span class="nn-dcard__meta">62 Trips &middot; 9 Regions</span><a
+                    href="short-treks.php" class="nn-dcard__view">View <span class="nn-dcard__arrow"><i
                         class="fa-solid fa-arrow-right"></i></span></a></div>
               </div>
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="nn-dcard nn-dcard--photo"
-              style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&amp;fit=crop&amp;w=1000&amp;q=80');">
+            <article class="nn-dcard nn-dcard--photo" style="background-image:url('image/des/2.svg');">
               <div class="nn-dcard__shade"></div>
               <div class="nn-dcard__body">
                 <span class="nn-dcard__badge">Permit Required</span>
@@ -87,7 +95,8 @@
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="nn-dcard nn-dcard--solid">
+            <article class="nn-dcard nn-dcard--solid" style="background-image:url('image/des/3.svg');">
+              <div class="nn-dcard__shade"></div>
               <div class="nn-dcard__body">
                 <span class="nn-dcard__badge nn-dcard__badge--light">Slow Travel</span>
                 <h3 class="nn-dcard__title">Bhutan</h3>
@@ -132,9 +141,14 @@
         <p class="nn-body">Ten years on, we're a team of 22 guides, porters, cooks, and trip planners &mdash; and we
           still build every trek the way we did the first one: a phone call, a few questions, and a route drawn from
           twenty years of actually walking the trails.</p>
+
+        <p class="redFull">READ THE FULL STORY</p>
         <div class="nn-story__bottom">
-          <a href="about.php" class="nn-btn nn-btn--outline">Read the Full Story <i class="fa-solid fa-arrow-right"></i></a>
+
           <div class="nn-sign"><strong>Mohan Raj Bhandari</strong><span>Managing Director</span></div>
+
+          <img src="image/des/t1.svg" alt="">
+          <img src="image/des/t2.svg" alt="">
         </div>
       </div>
     </div>
@@ -166,30 +180,37 @@
         <div class="swiper-wrapper">
           <?php
           $treks = [
-            ['Everest Base Camp Trek', '14 days', '5,545m', '4.9', '142', 'The classic walk to the foot of the world\'s highest mountain &mdash; Sherpa villages, monasteries, Khumbu glacier.', '1,490', 'photo-1486911278844-a81c5267e227'],
-            ['Manaslu Circuit Trek', '16 days', '5,160m', '4.9', '68', 'A restricted-area loop around the world\'s 8th highest peak. Tibetan villages, Larkya La pass, half the crowds.', '1,790', 'photo-1454496522488-7a8e488e8606'],
-            ['Annapurna Sanctuary Short', '5 days', '3,210m', '4.8', '87', 'A condensed Annapurna for those short on time &mdash; Poon Hill sunrise, Gurung villages, rhododendron forest.', '690', 'photo-1506905925346-21bda4d32df4'],
-            ['Langtang Valley Trek', '9 days', '3,870m', '4.8', '54', 'Closest Himalaya to Kathmandu. Yak pastures, Tamang villages, and the post-quake community we\'ve helped rebuild.', '990', 'photo-1470770841072-f978cf4d019e'],
-            ['Annapurna Circuit Trek', '12 days', '5,416m', '4.9', '113', 'The grand traverse over Thorong La &mdash; apple orchards, high desert, and the holy town of Muktinath.', '1,290', 'photo-1544735716-392fe2489ffa'],
+            ['Everest Base Camp Trek', '14 days', '5,545m', '4.9', '142', 'The classic walk to the foot of the world\'s highest mountain &mdash; Sherpa villages, monasteries, Khumbu glacier.', '1,490', 'photo-1486911278844-a81c5267e227', '★ Iconic'],
+            ['Manaslu Circuit Trek', '16 days', '5,160m', '4.9', '68', 'A restricted-area loop around the world\'s 8th highest peak. Tibetan villages, Larkya La pass, half the crowds.', '1,790', 'photo-1454496522488-7a8e488e8606', '⛰ Off-grid'],
+            ['Annapurna Sanctuary Short', '5 days', '3,210m', '4.8', '87', 'A condensed Annapurna for those short on time &mdash; Poon Hill sunrise, Gurung villages, rhododendron forest.', '690', 'photo-1506905925346-21bda4d32df4', '⚡ Short'],
+            ['Langtang Valley Trek', '9 days', '3,870m', '4.8', '54', 'Closest Himalaya to Kathmandu. Yak pastures, Tamang villages, and the post-quake community we\'ve helped rebuild.', '990', 'photo-1470770841072-f978cf4d019e', '☺ Easy-Mod'],
+            ['Annapurna Circuit Trek', '12 days', '5,416m', '4.9', '113', 'The grand traverse over Thorong La &mdash; apple orchards, high desert, and the holy town of Muktinath.', '1,290', 'photo-1544735716-392fe2489ffa', '☺ Easy-Mod'],
           ];
           foreach ($treks as $t): ?>
             <div class="swiper-slide">
               <article class="nn-tcard">
                 <div class="nn-tcard__img"
                   style="background-image:url('https://images.unsplash.com/<?= $t[7] ?>?auto=format&amp;fit=crop&amp;w=800&amp;q=80');">
-                  <span class="nn-tcard__tags"><span><i class="fa-regular fa-calendar"></i> <?= $t[1] ?></span><span><i
-                        class="fa-solid fa-mountain"></i> <?= $t[2] ?></span></span>
-                  <button class="nn-tcard__heart" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+                  <span class="nn-tcard__badge"> <?= $t[8] ?></span>
+
+
+                  <button class="nn-tcard__heart" aria-label="Save"> <img src="image/des/heart.svg" alt=""></button>
                 </div>
                 <div class="nn-tcard__body">
+                  <span class="dayM"><span>
+                      <?= $t[1] ?>
+                    </span> · <span>
+                      <?= $t[2] ?>
+                    </span></span>
                   <h3 class="nn-tcard__title"><?= $t[0] ?></h3>
                   <div class="nn-tcard__rating"><span class="nn-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                    <strong><?= $t[3] ?></strong> <span class="nn-muted">(<?= $t[4] ?>)</span>
+                    <strong><?= $t[3] ?></strong> <span class="nn-muted">&middot; <?= $t[4] ?></span>
                   </div>
                   <p class="nn-tcard__desc"><?= $t[5] ?></p>
                   <div class="nn-tcard__foot">
                     <span class="nn-price"><span>From</span> $<?= $t[6] ?> <small>pp</small></span>
-                    <a href="package-detail.php" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="package-detail.php" class="nn-link">View Itinerary <i
+                        class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </article>
@@ -233,9 +254,9 @@
     <div class="nn-region__grid">
       <?php
       $regions = [
-        ['11 treks · ', ' Pokhara', 'photo-1486911278844-a81c5267e227'],
-        ['Annapurna', '11 treks', 'photo-1544735716-392fe2489ffa'],
-        ['Dhaulagiri', '5 treks', 'photo-1454496522488-7a8e488e8606'],
+        ['11 treks · ', ' 12 treks · Khumbu', 'photo-1486911278844-a81c5267e227'],
+        ['Annapurna', '11 treks · Pokhara', 'photo-1544735716-392fe2489ffa'],
+        ['Dhaulagiri', '5 treks · Circuit & ice-fields', 'photo-1454496522488-7a8e488e8606'],
         ['Manaslu', '6 treks', 'photo-1506905925346-21bda4d32df4'],
         ['Langtang', '8 treks', 'photo-1470770841072-f978cf4d019e'],
       ];
@@ -343,10 +364,10 @@
     <div class="row g-4">
       <?php
       $beyond = [
-        ['Heritage Tour', '3-9 days', 'Easy', 'Seven UNESCO sites within the Kathmandu Valley alone &mdash; Boudhanath at dusk, Pashupatinath at dawn, Bhaktapur\'s potters\' square, the old Newari courtyards of Patan. Walked with a local historian, not a script.', 'Explore Heritage', 'photo-1582510003544-4d00b7f74220'],
-        ['City to City Tour', '5-10 days', 'Easy', 'Kathmandu, Pokhara, Bandipur, Lumbini &mdash; the through-line of modern Nepal. Slow mornings in lakeside cafes, hidden Newari kitchens, rooftop sunsets over the Annapurnas. We book the rides, you keep the pace.', 'Explore Cities', 'photo-1524492412937-b28074a5d7da'],
-        ['Wildlife Tour', '3-6 days', 'Easy', 'Chitwan and Bardia &mdash; one-horned rhino, sloth bear, and a real (if quiet) chance at a Bengal tiger. Dawn canoes on the Rapti, jungle walks with naturalist guides, nights in community lodges.', 'Explore Wildlife', 'photo-1549366021-9f761d450615'],
-        ['Peak Climbing', '14-30 days', 'Expert', 'Eighteen NMA-permitted peaks between 5,500m and 6,500m &mdash; Island, Mera, Lobuche East, Pisang, Chulu. Full technical training in Kathmandu before departure, two-to-one Sherpa ratio on summit day.', 'Explore Climbing', 'photo-1454496522488-7a8e488e8606'],
+        ['Heritage Tour', 'Cultural', 'Easy', 'Seven UNESCO sites within the Kathmandu Valley alone &mdash; Boudhanath at dusk, Pashupatinath at dawn, Bhaktapur\'s potters\' square, the old Newari courtyards of Patan. Walked with a local historian, not a script.', 'Explore Heritage', 'photo-1582510003544-4d00b7f74220'],
+        ['City to City Tour', 'Urban', 'Easy', 'Kathmandu, Pokhara, Bandipur, Lumbini &mdash; the through-line of modern Nepal. Slow mornings in lakeside cafes, hidden Newari kitchens, rooftop sunsets over the Annapurnas. We book the rides, you keep the pace.', 'Explore Cities', 'photo-1524492412937-b28074a5d7da'],
+        ['Wildlife Tour', 'Jungle', 'Easy', 'Chitwan and Bardia &mdash; one-horned rhino, sloth bear, and a real (if quiet) chance at a Bengal tiger. Dawn canoes on the Rapti, jungle walks with naturalist guides, nights in community lodges.', 'Explore Wildlife', 'photo-1549366021-9f761d450615'],
+        ['Peak Climbing', 'Alpine', 'Expert', 'Eighteen NMA-permitted peaks between 5,500m and 6,500m &mdash; Island, Mera, Lobuche East, Pisang, Chulu. Full technical training in Kathmandu before departure, two-to-one Sherpa ratio on summit day.', 'Explore Climbing', 'photo-1454496522488-7a8e488e8606'],
       ];
       foreach ($beyond as $b): ?>
         <div class="col-md-6 col-xl-3">
@@ -356,6 +377,7 @@
               <span class="nn-bcard__chip"><?= $b[1] ?> &middot; <?= $b[2] ?></span>
             </div>
             <div class="nn-bcard__body">
+              <p class="dayItem"><i class="fa-regular fa-clock"></i> 3 – 9 days Easy</p>
               <h3 class="nn-bcard__title"><?= $b[0] ?></h3>
               <p class="nn-bcard__desc"><?= $b[3] ?></p>
               <a href="blog-detail.php" class="nn-link"><?= $b[4] ?> <i class="fa-solid fa-arrow-right"></i></a>
@@ -364,56 +386,55 @@
         </div>
       <?php endforeach; ?>
     </div>
-  </div>
-</section>
 
-
-<!-- ============================================================
-     8. HELI TOURS
-     ============================================================ -->
-<section class="nn-sec nn-heli">
-  <div class="container">
-    <div class="row align-items-end g-4 mb-5">
-      <div class="col-lg-7">
-        <span class="nn-eyebrow"><span class="nn-eyebrow__line"></span>Fly Above the Mountain</span>
-        <h2 class="nn-h2">Helicopter tours <em class="nn-green-i">beyond the ordinary.</em></h2>
-      </div>
-      <div class="col-lg-5">
-        <p class="nn-lead mb-0">The postcard views of the high Himalaya &mdash; without the two-week walk in. Lift off
-          at dawn, stand among the giants by breakfast, home for dinner.</p>
-      </div>
-    </div>
-
-
-
-    <div class="nn-rel">
-      <div class="swiper nn-heli-swiper">
+    <div class="nn-rel mt-5">
+      <div class="swiper nn-trip-swiper">
         <div class="swiper-wrapper">
           <?php
-          $helis = [
-            ['Everest Base Camp Heli Tour', '5 hours', '5,545m', '5.0', '62', 'Kathmandu to Kalapatthar and back &mdash; the postcard view of Everest without the 14-day walk in.', '1,800', 'photo-1486911278844-a81c5267e227'],
-            ['Annapurna Base Camp Heli Tour', '1 day', '4,130m', '4.9', '38', 'Lift off from Pokhara at dawn and stand at the sanctuary by breakfast. The amphitheatre of peaks, all to yourself.', '1,290', 'photo-1544735716-392fe2489ffa'],
-            ['Muktinath Heli Tour', '4 hours', '3,800m', '4.8', '24', 'The sacred Hindu-Buddhist temple of Muktinath, set behind the Annapurna range. Land, walk, return same day.', '1,200', 'photo-1506905925346-21bda4d32df4'],
-            ['North ABC Heli Tour', '1 day', '4,380m', '4.9', '21', 'The newly opened northern approach to Annapurna Base Camp. Fewer crowds, dramatic ridge landings, same sanctuary view.', '1,490', 'photo-1470770841072-f978cf4d019e'],
+          $treks = [
+            ['Everest Base Camp Trek', '14 days', '5,545m', '4.9', '142', 'The classic walk to the foot of the world\'s highest mountain &mdash; Sherpa villages, monasteries, Khumbu glacier.', '1,490', 'photo-1486911278844-a81c5267e227', '✈ Half-day'],
+            ['Manaslu Circuit Trek', '16 days', '5,160m', '4.9', '68', 'A restricted-area loop around the world\'s 8th highest peak. Tibetan villages, Larkya La pass, half the crowds.', '1,790', 'photo-1454496522488-7a8e488e8606', '✈ 1 Day'],
+            ['Annapurna Sanctuary Short', '5 days', '3,210m', '4.8', '87', 'A condensed Annapurna for those short on time &mdash; Poon Hill sunrise, Gurung villages, rhododendron forest.', '690', 'photo-1506905925346-21bda4d32df4', '✈ Pilgrim'],
+            ['Langtang Valley Trek', '9 days', '3,870m', '4.8', '54', 'Closest Himalaya to Kathmandu. Yak pastures, Tamang villages, and the post-quake community we\'ve helped rebuild.', '990', 'photo-1470770841072-f978cf4d019e', '✈ Day-trip'],
+            ['Annapurna Circuit Trek', '12 days', '5,416m', '4.9', '113', 'The grand traverse over Thorong La &mdash; apple orchards, high desert, and the holy town of Muktinath.', '1,290', 'photo-1544735716-392fe2489ffa', '☺ Easy-Mod'],
           ];
-          foreach ($helis as $h): ?>
+          foreach ($treks as $t): ?>
             <div class="swiper-slide">
               <article class="nn-tcard">
-                <div class="nn-tcard__img"
-                  style="background-image:url('https://images.unsplash.com/<?= $h[7] ?>?auto=format&amp;fit=crop&amp;w=800&amp;q=80');">
-                  <span class="nn-tcard__tags"><span><i class="fa-regular fa-clock"></i> <?= $h[1] ?></span><span><i
-                        class="fa-solid fa-mountain"></i> <?= $h[2] ?></span></span>
-                  <button class="nn-tcard__heart" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+                <div class="nn-tcard__img" style="background-image:url(image/des/half.svg)">
+                  <span class="nn-tcard__badge">
+                    <?= $t[8] ?>
+                  </span>
+
+
+                  <button class="nn-tcard__heart" aria-label="Save"> <img src="image/des/heart.svg" alt=""></button>
                 </div>
                 <div class="nn-tcard__body">
-                  <h3 class="nn-tcard__title"><?= $h[0] ?></h3>
+                  <span class="dayM"><span>
+                      <?= $t[1] ?>
+                    </span> · <span>
+                      <?= $t[2] ?>
+                    </span></span>
+                  <h3 class="nn-tcard__title">
+                    <?= $t[0] ?>
+                  </h3>
                   <div class="nn-tcard__rating"><span class="nn-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                    <strong><?= $h[3] ?></strong> <span class="nn-muted">(<?= $h[4] ?>)</span>
+                    <strong>
+                      <?= $t[3] ?>
+                    </strong> <span class="nn-muted">&middot;
+                      <?= $t[4] ?>
+                    </span>
                   </div>
-                  <p class="nn-tcard__desc"><?= $h[5] ?></p>
+                  <p class="nn-tcard__desc">
+                    <?= $t[5] ?>
+                  </p>
                   <div class="nn-tcard__foot">
-                    <span class="nn-price"><span>From</span> $<?= $h[6] ?> <small>pp</small></span>
-                    <a href="everest-heli-tour.php" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
+                    <span class="nn-price"><span>From</span> $
+                      <?= $t[6] ?> <small>pp</small>
+                    </span>
+                    <a style="
+    background: #228E7F;
+" href="package-detail.php" class="nn-link">View Itinerary <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </article>
@@ -421,11 +442,18 @@
           <?php endforeach; ?>
         </div>
       </div>
-      <button class="nn-arrow nn-heli-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
-      <button class="nn-arrow nn-heli-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+      <button class="nn-arrow nn-trip-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+      <button class="nn-arrow nn-trip-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
+
+
   </div>
 </section>
+
+
+<!-- ============================================================
+     8. HELI TOURS
+     ============================================================ -->
 
 
 <!-- ============================================================

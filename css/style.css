@@ -153,14 +153,20 @@ body {
     content: "";
     display: inline-block;
     /* <-- the missing piece */
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: currentColor;
     opacity: .85;
     margin-left: 6px;
     /* space between text and dot */
     vertical-align: middle;
+    background-image: url(../image/team/arrowDown.svg);
+    background-size: contain;
+    width: 6px;
+    height: 11px;
+    background-repeat: no-repeat;
+    top: 3px;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    right: -4px;
 }
 
 /* Dropdown */
@@ -358,10 +364,11 @@ body {
 }
 
 .nn-body {
-    color: var(--nn-ink);
+    color: #7A7870;
     font-size: 15.5px;
     line-height: 1.75;
     margin-bottom: 16px;
+    font-weight: 300;
 }
 
 .nn-muted {
@@ -515,13 +522,13 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 46px;
-    height: 46px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 0;
     background: var(--nn-navy-2);
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
     z-index: 6;
     display: flex;
@@ -672,7 +679,7 @@ body {
     outline: 0;
     background: transparent;
     font-size: 18px;
-    color: #3a4654;
+    color: #A09C90;
     padding: 14px 6px;
 }
 
@@ -1001,6 +1008,9 @@ body {
     gap: 26px;
     flex-wrap: wrap;
     margin-top: 26px;
+    width: 100%;
+    padding-right: 0;
+    justify-content: space-between;
 }
 
 .nn-sign strong {
@@ -1025,22 +1035,47 @@ body {
 }
 
 .nn-tcard {
-    background: #fff;
-    border: 1px solid #eceae2;
-    border-radius: 20px;
+    background: #FBF8F3;
+    border: 1px solid #EDE8DF;
+    border-radius: 22px;
     overflow: hidden;
     height: 100%;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 10px 30px rgba(20, 40, 60, .05);
+    box-shadow: 0 8px 30px rgba(20, 40, 60, .06);
+    padding: 10px;
 }
 
 .nn-tcard__img {
     position: relative;
-    height: 210px;
+    height: 240px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
+    overflow: hidden;
+}
+
+.nn-tcard__badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(25, 50, 35, .88);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 7px 14px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.nn-tcard__badge i {
+    font-size: 10px;
 }
 
 .nn-tcard__tags {
@@ -1049,14 +1084,15 @@ body {
     bottom: 12px;
     display: flex;
     gap: 8px;
+    z-index: 2;
 }
 
 .nn-tcard__tags span {
     background: rgba(15, 42, 68, .82);
     color: #fff;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
-    padding: 5px 11px;
+    padding: 5px 12px;
     border-radius: 999px;
     display: inline-flex;
     align-items: center;
@@ -1068,41 +1104,53 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
+    /* width: 38px; */
+    /* height: 38px; */
+    /* border-radius: 50%; */
     border: 0;
-    background: rgba(255, 255, 255, .9);
-    color: var(--nn-navy-2);
+    /* background: rgba(15, 42, 68, .72); */
+    /* color: #fff; */
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* font-size: 15px; */
+    /* backdrop-filter: blur(4px); */
+    z-index: 2;
+    background: unset;
 }
 
 .nn-tcard__body {
-    padding: 20px 7px;
+    padding: 18px 13px 8px;
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding-top: 6px;
 }
 
 .nn-tcard__title {
     font-family: 'Newsreader', serif;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 500;
     color: var(--nn-navy-2);
     margin: 0 0 8px;
+    margin-top: 7px;
 }
 
 .nn-tcard__rating {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 10px;
     color: var(--nn-ink);
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .nn-stars {
     color: #2D4A35;
     letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 13px;
     font-family: "Inter", sans-serif;
 }
 
@@ -1111,11 +1159,12 @@ body {
 }
 
 .nn-tcard__desc {
-    font-size: 13px;
-    line-height: 1.6;
-    color: var(--nn-muted);
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: #7A7870;
     margin: 0 0 18px;
     flex: 1;
+    font-weight: 300;
 }
 
 .nn-tcard__foot {
@@ -1123,29 +1172,31 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 16px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #EDE8DF;
 }
 
 .nn-price {
     font-weight: 500;
     color: #012A47;
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Newsreader', serif;
 }
 
 .nn-price span {
     display: block;
-    font-size: 11px;
-    font-weight: 400;
-    color: #7A7870;
+    font-size: 10px;
+    font-weight: 500;
+    color: #9A958C;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
+    font-family: 'Inter', sans-serif;
 }
 
 .nn-price small {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--nn-muted);
+    font-size: 13px;
+    font-weight: 500;
+    color: #9A958C;
+    font-family: 'Inter', sans-serif;
 }
 
 /* ---------- 5. REGION ---------- */
@@ -1186,16 +1237,17 @@ body {
 
 .nn-rcard__count {
     display: block;
-    font-size: 12px;
+    font-size: 9px;
     letter-spacing: 1px;
     text-transform: uppercase;
     opacity: .85;
+    font-weight: 200;
 }
 
 .nn-rcard__name {
     font-family: 'Newsreader', serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* ---------- 6. TRIP PLANNER (dark) ---------- */
@@ -1329,7 +1381,7 @@ body {
     border: none;
     color: #fff;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -1387,10 +1439,10 @@ body {
     position: absolute;
     left: 12px;
     top: 12px;
-    background: rgba(255, 255, 255, .92);
-    color: var(--nn-navy-2);
-    font-size: 11.5px;
-    font-weight: 700;
+    background: rgb(89 111 77 / 81%);
+    color: white;
+    font-size: 10.5px;
+    font-weight: 500;
     padding: 5px 12px;
     border-radius: 999px;
     text-transform: uppercase;
@@ -1762,6 +1814,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding: 10px;
 }
 
 .nn-blog-new__img {
@@ -1769,6 +1822,7 @@ body {
     height: 240px;
     background-size: cover;
     background-position: center;
+    border-radius: 11px;
 }
 
 .nn-blog-new__body {
@@ -1830,6 +1884,11 @@ body {
     font-weight: 600;
     transition: all 0.2s ease;
     align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 42%;
+    margin: 0 auto;
 }
 
 .nn-btn-outline-small:hover {
@@ -2154,18 +2213,8 @@ body {
     transition: transform .25s ease, background .25s ease, color .25s ease;
 }
 
-.nn-tcard__heart:hover {
-    transform: scale(1.15);
-    color: #e2574c;
-}
 
-.nn-tcard__heart.is-active {
-    color: #e2574c;
-}
 
-.nn-tcard__heart.is-active i {
-    animation: nn-pop .4s ease;
-}
 
 /* ---- Beyond cards ---- */
 .nn-bcard {
@@ -2349,15 +2398,18 @@ section.nn-sec.nn-trips {
 .nn-tcard__foot a.nn-link {
     background: #C9943A;
     border-radius: 50px;
-    padding: 10px 15px;
+    padding: 10px 18px;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 700;
+    transition: background .2s ease, transform .2s ease;
 }
 
-article.nn-tcard.nn-reveal.is-visible {
-    padding: 10px;
+.nn-tcard__foot a.nn-link:hover {
+    background: #B5842F;
+    transform: translateY(-1px);
+    color: white;
 }
 
 section.nn-sec.nn-planner {
@@ -5824,4 +5876,21 @@ p.watchTitle {
 
 span.fName {
     color: #218E82;
+}
+
+p.redFull {
+    color: #228F7F;
+}
+
+span.dayM {
+    color: #7A7870;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+p.dayItem {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7A7870;
 }
