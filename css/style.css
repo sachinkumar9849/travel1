@@ -3358,7 +3358,7 @@ h4.nn-body-heading {
 }
 
 .itinerary-column {
-    flex: 1;
+    flex: 2;
 }
 
 .itinerary-card {
@@ -3423,8 +3423,8 @@ h4.nn-body-heading {
 .iti-day-title {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 700;
-    color: #0b2545;
+    font-weight: 600;
+    color: #0F2A44;
     flex: 1;
     margin: 0;
 }
@@ -3497,10 +3497,12 @@ h4.nn-body-heading {
 
 .iti-desc {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    color: #4a5568;
+    font-size: 14px;
+    color: #29261B;
     line-height: 1.6;
     margin-bottom: 25px;
+    font-weight: 300;
+    line-height: 27px;
 }
 
 .iti-gallery {
@@ -3537,11 +3539,13 @@ h4.nn-body-heading {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
 }
 
 .iti-map-img {
     max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -3863,8 +3867,8 @@ h4.nn-body-heading {
 
 /* Reviews Section */
 .package-reviews-section {
-    background-color: #FAF6F0;
-    padding: 80px 0;
+    background-color: unset;
+    padding: 40px 0;
 }
 
 .reviews-header {
@@ -3923,7 +3927,7 @@ h4.nn-body-heading {
 .review-card {
     background-color: #FAF4E9;
     border-radius: 20px;
-    padding: 30px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -3946,12 +3950,13 @@ h4.nn-body-heading {
 }
 
 .review-user-badge {
-    background-color: #F5EBE1;
+    background-color: #fbefe0;
     border-radius: 14px;
     padding: 12px 18px;
     display: flex;
     align-items: center;
     gap: 15px;
+    border-top: 1px solid #dcdcdca6;
 }
 
 .user-avatar {
@@ -3989,8 +3994,8 @@ h4.nn-body-heading {
 
 /* Safety Policy Section */
 .package-safety-section {
-    background-color: #ffffff;
-    padding: 80px 0;
+    /* background-color: #ffffff; */
+    padding: 40px 0;
 }
 
 .safety-section-title {
@@ -3998,7 +4003,7 @@ h4.nn-body-heading {
     font-size: 32px;
     font-weight: 600;
     color: #234A35;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .safety-accordion {
@@ -4074,8 +4079,8 @@ h4.nn-body-heading {
 
 /* Upcoming Dates Section */
 .package-dates-section {
-    background-color: #FAF6F0;
-    padding: 80px 0;
+    /* background-color: #FAF6F0; */
+    padding: 40px 0;
 }
 
 .dates-section-title {
@@ -4330,8 +4335,8 @@ h4.nn-body-heading {
 
 /* FAQ Section */
 .package-faq-section {
-    background-color: #ffffff;
-    padding: 80px 0;
+    /* background-color: #ffffff; */
+    padding: 40px 0;
 }
 
 .faq-section-title {
