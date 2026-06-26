@@ -434,7 +434,9 @@
                     <section class="adv-limits-section">
                         <div class="container" style="padding: 0;">
                             <h2 class="adv-limits-title">Weight & Age Limits</h2>
-                            <p class="adv-limits-desc">Limits exist so the equipment can safely absorb the force of every jump.<br>Always be honest about your weight when booking &mdash; it's calibrated to you.</p>
+                            <p class="adv-limits-desc">Limits exist so the equipment can safely absorb the force of
+                                every jump.<br>Always be honest about your weight when booking &mdash; it's calibrated
+                                to you.</p>
 
                             <div class="adv-limits-grid">
                                 <!-- Card 1: Bungee Jump -->
@@ -455,7 +457,8 @@
                                         <span class="limit-data-val">100 kg</span>
                                     </div>
                                     <hr class="limit-divider">
-                                    <p class="limit-card-note">A precise weigh-in on arrival sets the cord calibration. Those near the limits are checked individually by the crew.</p>
+                                    <p class="limit-card-note">A precise weigh-in on arrival sets the cord calibration.
+                                        Those near the limits are checked individually by the crew.</p>
                                 </div>
 
                                 <!-- Card 2: Swing / Tandem -->
@@ -476,7 +479,8 @@
                                         <span class="limit-data-val">145 kg</span>
                                     </div>
                                     <hr class="limit-divider">
-                                    <p class="limit-card-note">Must fit comfortably in the harness. For tandem swings the combined weight of both partners must stay within the harness limit.</p>
+                                    <p class="limit-card-note">Must fit comfortably in the harness. For tandem swings
+                                        the combined weight of both partners must stay within the harness limit.</p>
                                 </div>
                             </div>
 
@@ -484,12 +488,530 @@
                             <div class="adv-age-box">
                                 <div class="age-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
                                 <div class="age-text">
-                                    <strong>Age requirement:</strong> participants aged 18 and above are eligible after a basic medical check. Under-18s must bring written permission from a parent or guardian.
+                                    <strong>Age requirement:</strong> participants aged 18 and above are eligible after
+                                    a basic medical check. Under-18s must bring written permission from a parent or
+                                    guardian.
                                 </div>
                             </div>
                         </div>
                     </section>
                     <!-- weight and age limites end  -->
+
+                    <section class="package-included-section" id="include-exclude">
+                        <div class="container">
+
+                            <h2 class="route_title">WHAT'S INCLUDED & EXCLUDED</h2>
+
+                            <div class="inc-exc-tabs">
+                                <button class="inc-tab active" data-target="included"><i class="fa-solid fa-check"></i>
+                                    Included</button>
+                                <button class="inc-tab" data-target="not-included"><i class="fa-solid fa-xmark"></i> Not
+                                    Included</button>
+                            </div>
+
+                            <div class="inc-list" id="included-list">
+                                <div class="inc-card">
+                                    <div class="inc-icon"><i class="fa-solid fa-check"></i></div>
+                                    <div class="inc-text">
+                                        <strong>✈️ Return flights: Kathmandu ⇌ Lukla</strong>
+                                        <span>Tenzing-Hillary Airport</span>
+                                    </div>
+                                </div>
+                                <div class="inc-card">
+                                    <div class="inc-icon"><i class="fa-solid fa-check"></i></div>
+                                    <div class="inc-text">
+                                        <strong>🎫 All TIMS permits & Sagarmatha NP entry fee</strong>
+                                        <span>Value ~USD 80</span>
+                                    </div>
+                                </div>
+                                <div class="inc-card">
+                                    <div class="inc-icon"><i class="fa-solid fa-check"></i></div>
+                                    <div class="inc-text">
+                                        <strong>⛰️ Government-licensed Sherpa guide - 12 days</strong>
+                                        <span>English-speaking, WFR-certified, fully insured</span>
+                                    </div>
+                                </div>
+                                <div class="inc-card">
+                                    <div class="inc-icon"><i class="fa-solid fa-check"></i></div>
+                                    <div class="inc-text">
+                                        <strong>🎒 Porter (1 per 2 trekkers &middot; 20 kg cap)</strong>
+                                        <span>IPPG fair-wage standards</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="inc-list" id="not-included-list" style="display: none;">
+                                <div class="inc-card">
+                                    <div class="inc-icon" style="background-color: #fee; color: #d32f2f;"><i
+                                            class="fa-solid fa-xmark"></i></div>
+                                    <div class="inc-text">
+                                        <strong>Personal Expenses</strong>
+                                        <span>Laundry, phone calls, extra snacks, etc.</span>
+                                    </div>
+                                </div>
+                                <div class="inc-card">
+                                    <div class="inc-icon" style="background-color: #fee; color: #d32f2f;"><i
+                                            class="fa-solid fa-xmark"></i></div>
+                                    <div class="inc-text">
+                                        <strong>Travel Insurance</strong>
+                                        <span>Mandatory for evacuation and medical emergencies</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr style=" border-color: #a18c73; ">
+                    <!-- Reviews Section -->
+                    <section class="package-reviews-section" id="review">
+                        <div class="container">
+                            <div class="reviews-header">
+                                <span class="reviews-eyebrow">FROM THE TRAIL</span>
+                                <div class="reviews-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="reviews-summary">
+                                    <span class="reviews-rating">4.9</span>
+                                    <span class="reviews-count">300 reviews</span>
+                                </div>
+                            </div>
+
+                            <div class="reviews-grid">
+                                <!-- Card 1 -->
+                                <div class="review-card">
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="review-quote">"The site made the right route feel obvious before we even
+                                        messaged."</p>
+                                    <div class="review-user-badge">
+                                        <div class="user-avatar">EK</div>
+                                        <div class="user-info">
+                                            <strong class="user-name">Emma K.</strong>
+                                            <span class="user-location">Canada &middot; EBC + Kala Patthar</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="review-card">
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="review-quote">"Dawa was steady, funny, and read our pace before we'd told
+                                        him what it
+                                        was."</p>
+                                    <div class="review-user-badge">
+                                        <div class="user-avatar">EK</div>
+                                        <div class="user-info">
+                                            <strong class="user-name">Emma K.</strong>
+                                            <span class="user-location">Canada &middot; EBC + Kala Patthar</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="review-card">
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p class="review-quote">"Clean teahouses, oximeter checks twice a day, an extra rest
+                                        day when one of
+                                        us flagged."</p>
+                                    <div class="review-user-badge">
+                                        <div class="user-avatar">EK</div>
+                                        <div class="user-info">
+                                            <strong class="user-name">Emma K.</strong>
+                                            <span class="user-location">Canada &middot; EBC + Kala Patthar</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr style=" border-color: #a18c73; ">
+                    <section class="terms-feasibility-section bgRemove">
+                        <div class="container">
+                            <h2 class="terms-title">Terms, Conditions & Feasibility</h2>
+                            <p class="terms-subtitle">Helicopter flying in the high Himalaya lives and dies by the
+                                weather. These are
+                                the ground rules we agree on before lift-off &mdash; plain and upfront.</p>
+
+                            <div class="terms-list">
+                                <div class="terms-item">
+                                    <div class="terms-num">1</div>
+                                    <div class="terms-text">The flight may be delayed by visibility under a 1 km range,
+                                        air traffic, or
+                                        lengthy weather confirmation. In such cases a replacement flight is arranged for
+                                        the next day by
+                                        mutual understanding.</div>
+                                </div>
+                                <div class="terms-item">
+                                    <div class="terms-num">2</div>
+                                    <div class="terms-text">If the return leg is cancelled due to bad weather, we'll do
+                                        our best to
+                                        arrange accommodation, but those expenses are paid by the client.</div>
+                                </div>
+                                <div class="terms-item">
+                                    <div class="terms-num">3</div>
+                                    <div class="terms-text">On a shared ride the cost is divided per person. Aside from
+                                        weather, the
+                                        flight can be cancelled if any member of the group cancels.</div>
+                                </div>
+                                <div class="terms-item">
+                                    <div class="terms-num">4</div>
+                                    <div class="terms-text">If a member cancels during a shared ride, the flight
+                                        continues only if a
+                                        replacement is found, or if the remaining members agree to cover the missing
+                                        share.</div>
+                                </div>
+                                <div class="terms-item">
+                                    <div class="terms-num">5</div>
+                                    <div class="terms-text">If landing isn't possible at the target due to weather, you
+                                        may choose an
+                                        alternate destination &mdash; but a refund is not given in such cases.</div>
+                                </div>
+                                <div class="terms-item">
+                                    <div class="terms-num">6</div>
+                                    <div class="terms-text">A 20% booking deposit secures your seat; the remaining 80%
+                                        is due 2&ndash;6
+                                        days before the flight. No refund applies for last-hour cancellations.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr style=" border-color: #a18c73; ">
+                    <!-- Upcoming Dates Section -->
+                    <section class="package-dates-section bgRemove" id="upcoming-dates">
+                        <div class="container">
+                            <h2 class="dates-section-title">Everest Heli Tour — Dates & Availability 2026/2027</h2>
+                            <p class="dates-section-subtitle">Group-joining flights run on clear-weather mornings
+                                through the season.
+                                Pick a date to
+                                check seats — a 20% deposit holds your place.</p>
+
+                            <div class="dates-cols">
+                                <!-- Left: Calendar Selection -->
+                                <div class="dates-left">
+                                    <div class="calendar-widget">
+                                        <div class="widget-header">
+                                            <span class="widget-title">Select Departure Date</span>
+                                            <span class="widget-duration">Trip duration: 12 days</span>
+                                        </div>
+
+                                        <div class="calendar-wrapper">
+                                            <!-- July 2026 -->
+                                            <div class="month-col">
+                                                <div class="month-header">
+                                                    <button class="cal-nav-btn"><i
+                                                            class="fa-solid fa-chevron-left"></i></button>
+                                                    <span class="month-name">July 2026</span>
+                                                    <div class="cal-nav-placeholder"></div>
+                                                </div>
+                                                <div class="days-grid-headers">
+                                                    <span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+                                                </div>
+                                                <div class="days-grid">
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="cal-day">1</span>
+                                                    <span class="cal-day">2</span>
+                                                    <span class="cal-day">3</span>
+                                                    <span class="cal-day">4</span>
+                                                    <span class="cal-day">5</span>
+                                                    <span class="cal-day">6</span>
+                                                    <span class="cal-day">7</span>
+                                                    <span class="cal-day">8</span>
+                                                    <span class="cal-day">9</span>
+                                                    <span class="cal-day">10</span>
+                                                    <span class="cal-day text-soldout">11</span>
+                                                    <span class="cal-day">12</span>
+                                                    <span class="cal-day">13</span>
+                                                    <span class="cal-day">14</span>
+                                                    <span class="cal-day">15</span>
+                                                    <span class="cal-day">16</span>
+                                                    <span class="cal-day">17</span>
+                                                    <span class="cal-day text-soldout">18</span>
+                                                    <span class="cal-day">19</span>
+                                                    <span class="cal-day">20</span>
+                                                    <span class="cal-day">21</span>
+                                                    <span class="cal-day">22</span>
+                                                    <span class="cal-day">23</span>
+                                                    <span class="cal-day">24</span>
+                                                    <span class="cal-day">25</span>
+                                                    <span class="cal-day">26</span>
+                                                    <span class="cal-day">27</span>
+                                                    <span class="cal-day">28</span>
+                                                    <span class="cal-day">29</span>
+                                                    <span class="cal-day">30</span>
+                                                    <span class="cal-day">31</span>
+                                                </div>
+                                            </div>
+                                            <!-- August 2026 -->
+                                            <div class="month-col">
+                                                <div class="month-header">
+                                                    <div class="cal-nav-placeholder"></div>
+                                                    <span class="month-name">August 2026</span>
+                                                    <button class="cal-nav-btn"><i
+                                                            class="fa-solid fa-chevron-right"></i></button>
+                                                </div>
+                                                <div class="days-grid-headers">
+                                                    <span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+                                                </div>
+                                                <div class="days-grid">
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="empty-day"></span>
+                                                    <span class="cal-day">1</span>
+                                                    <span class="cal-day">2</span>
+                                                    <span class="cal-day">3</span>
+                                                    <span class="cal-day">4</span>
+                                                    <span class="cal-day">5</span>
+                                                    <span class="cal-day">6</span>
+                                                    <span class="cal-day">7</span>
+                                                    <span class="cal-day">8</span>
+                                                    <span class="cal-day">9</span>
+                                                    <span class="cal-day">10</span>
+                                                    <span class="cal-day">11</span>
+                                                    <span class="cal-day text-soldout">12</span>
+                                                    <span class="cal-day">13</span>
+                                                    <span class="cal-day">14</span>
+                                                    <span class="cal-day">15</span>
+                                                    <span class="cal-day">16</span>
+                                                    <span class="cal-day">17</span>
+                                                    <span class="cal-day">18</span>
+                                                    <span class="cal-day">19</span>
+                                                    <span class="cal-day">20</span>
+                                                    <span class="cal-day">21</span>
+                                                    <span class="cal-day">22</span>
+                                                    <span class="cal-day">23</span>
+                                                    <span class="cal-day">24</span>
+                                                    <span class="cal-day">25</span>
+                                                    <span class="cal-day">26</span>
+                                                    <span class="cal-day">27</span>
+                                                    <span class="cal-day">28</span>
+                                                    <span class="cal-day selected">29</span>
+                                                    <span class="cal-day">30</span>
+                                                    <span class="cal-day">31</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget-footer">
+                                            <div class="legend-and-powered">
+                                                <span class="legend-item"><span class="sold-dot"></span> Sold out
+                                                    dates</span>
+                                                <span class="powered-text">Powered by <i>wetravel</i></span>
+                                            </div>
+                                            <button class="btn-cal-book">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Right: Private Group Inquiry -->
+                                <div class="dates-right">
+                                    <div class="private-group-card">
+                                        <h3 class="private-title">Want a Private Charter?</h3>
+                                        <p class="private-desc">Skip the shared schedule and fly on your own
+                                            time — ideal for families, proposals, or
+                                            photography. We'll build the flight around you.</p>
+                                        <button class="btn-private-trip">Plan a Private Flight</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <hr style=" border-color: #a18c73; ">
+                    <!-- Frequently Asked Questions start  -->
+                    <section class="faq-section bgRemove">
+                        <div class="container">
+                            <h2 class="faq-title">Frequently Asked Questions</h2>
+
+                            <div class="faq-category">
+                                <h3 class="faq-cat-title">The Flight</h3>
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>1. Why can't all 5 of us fly to Kala Patthar together?</span>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>Answer will be provided here.</p>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>2. How long do we actually spend over Everest Base Camp?</span>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>Answer will be provided here.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-category">
+                                <h3 class="faq-cat-title">Costs & Booking</h3>
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>3. What isn't included in the price?</span>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>Answer will be provided here.</p>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>4. What happens if the weather cancels the flight?</span>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>Answer will be provided here.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="faq-category">
+                                <h3 class="faq-cat-title">Health</h3>
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>5. Do I need to be fit, or worry about altitude?</span>
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>Answer will be provided here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Frequently Asked Questions end  -->
+                    <hr style=" border-color: #a18c73; ">
+                    <!-- More Heli Landing Tours start -->
+                    <section class="more-tours-section bgRemove">
+                        <div class="container">
+                            <h2 class="more-tours-title">More Adventures in Pokhara</h2>
+                            <div class="more-tours-grid">
+
+                                <!-- Card 1 -->
+                                <a href="everest-heli-tour.php" class="mtour-card"
+                                    style="text-decoration:none; color:inherit;">
+                                    <div class="mtour-img-wrap">
+                                        <img src="image/more.svg" alt="Annapurna Base Camp Helicopter Tour">
+                                        <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
+                                        <div class="mtour-price-overlay">
+                                            <span class="mtour-from">from US$ 550</span>
+                                            <span class="mtour-price">US$ 490 pp</span>
+                                        </div>
+                                    </div>
+                                    <div class="mtour-body">
+                                        <h3 class="mtour-name">Annapurna Base Camp Helicopter Tour</h3>
+                                        <div class="mtour-meta">
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i
+                                                        class="fa-regular fa-circle-check"></i> GRADE</span>
+                                                <span class="mtour-meta-val">Decent</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-regular fa-clock"></i>
+                                                    DURATION</span>
+                                                <span class="mtour-meta-val">1.5 hr flight</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-solid fa-person-hiking"></i>
+                                                    ACTIVITY</span>
+                                                <span class="mtour-meta-val">Heli Tour</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <!-- Card 2 -->
+                                <a href="everest-heli-tour.php" class="mtour-card"
+                                    style="text-decoration:none; color:inherit;">
+                                    <div class="mtour-img-wrap">
+                                        <img src="image/more.svg" alt="PoonHill–Ghandruk Helicopter Landing Tour">
+                                        <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
+                                        <div class="mtour-price-overlay">
+                                            <span class="mtour-from">from US$ 400</span>
+                                            <span class="mtour-price">US$ 300 pp</span>
+                                        </div>
+                                    </div>
+                                    <div class="mtour-body">
+                                        <h3 class="mtour-name">PoonHill–Ghandruk Helicopter Landing Tour</h3>
+                                        <div class="mtour-meta">
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i
+                                                        class="fa-regular fa-circle-check"></i> GRADE</span>
+                                                <span class="mtour-meta-val">Decent</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-regular fa-clock"></i>
+                                                    DURATION</span>
+                                                <span class="mtour-meta-val">2 hours</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-solid fa-person-hiking"></i>
+                                                    ACTIVITY</span>
+                                                <span class="mtour-meta-val">Heli Tour</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <!-- Card 3 -->
+                                <a href="everest-heli-tour.php" class="mtour-card"
+                                    style="text-decoration:none; color:inherit;">
+                                    <div class="mtour-img-wrap">
+                                        <img src="image/more.svg" alt="Muktinath Helicopter Tour from Pokhara">
+                                        <span class="mtour-badge"><i class="fa-solid fa-people-group"></i> Group</span>
+                                        <div class="mtour-price-overlay">
+                                            <span class="mtour-from">from US$ 700</span>
+                                            <span class="mtour-price">US$ 580 pp</span>
+                                        </div>
+                                    </div>
+                                    <div class="mtour-body">
+                                        <h3 class="mtour-name">Muktinath Helicopter Tour from Pokhara</h3>
+                                        <div class="mtour-meta">
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i
+                                                        class="fa-regular fa-circle-check"></i> GRADE</span>
+                                                <span class="mtour-meta-val">Decent</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-regular fa-clock"></i>
+                                                    DURATION</span>
+                                                <span class="mtour-meta-val">1 day</span>
+                                            </div>
+                                            <div class="mtour-meta-item">
+                                                <span class="mtour-meta-label"><i class="fa-solid fa-person-hiking"></i>
+                                                    ACTIVITY</span>
+                                                <span class="mtour-meta-val">Heli Tour</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
 

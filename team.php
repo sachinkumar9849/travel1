@@ -183,6 +183,161 @@
             </div>
         </div>
     </section>
+
+    <!-- Accredited & Trusted Section -->
+    <section class="tm-accredited-section">
+        <div class="container">
+            <div class="tm-accredited-inner">
+                <span class="tm-eyebrow">ACCREDITED &amp; TRUSTED</span>
+                <h2 class="tm-accredited-title">Our team is <em class="tm-green-italic">licensed &amp; registered</em></h2>
+                <p class="tm-accredited-desc">Every guide is recognised by Nepal's tourism authorities and our company holds membership across the<br>country's leading trekking bodies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="tm-cta-section">
+        <div class="container">
+            <div class="tm-cta-card">
+                <h2 class="tm-cta-title">Trek with a team that <em class="tm-cta-italic">feels like family</em></h2>
+                <p class="tm-cta-desc">Tell us where you'd like to go — we'll match you with the right guide.</p>
+                <div class="tm-cta-btns">
+                    <a href="guidePage.php" class="tm-btn-primary">Plan Your Trip</a>
+                    <a href="index.php" class="tm-btn-outline">About the Company</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
+
+<style>
+    /* Accredited & Trusted */
+    .tm-accredited-section {
+        padding: 70px 0 50px;
+        background: #fff;
+        text-align: center;
+    }
+
+    .tm-eyebrow {
+        display: inline-block;
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #2F8876;
+        margin-bottom: 16px;
+    }
+
+    .tm-accredited-title {
+        font-family: 'Newsreader', serif;
+        font-size: 38px;
+        font-weight: 500;
+        color: #0F2A44;
+        margin-bottom: 18px;
+        line-height: 1.2;
+    }
+
+    .tm-green-italic {
+        font-style: italic;
+        color: #2F8876;
+        font-weight: 500;
+    }
+
+    .tm-accredited-desc {
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        color: #6B7280;
+        line-height: 1.7;
+        max-width: 520px;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+
+    /* CTA Banner */
+    .tm-cta-section {
+        padding: 0 0 80px;
+        background: #fff;
+    }
+
+    .tm-cta-card {
+        background: #0F2A44;
+        border-radius: 20px;
+        padding: 60px 48px;
+        text-align: center;
+        max-width: 860px;
+        margin: 0 auto;
+    }
+
+    .tm-cta-title {
+        font-family: 'Newsreader', serif;
+        font-size: 36px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 16px;
+        line-height: 1.25;
+    }
+
+    .tm-cta-italic {
+        font-style: italic;
+        color: #C9943A;
+        font-weight: 500;
+    }
+
+    .tm-cta-desc {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.65);
+        margin-bottom: 32px;
+        line-height: 1.7;
+    }
+
+    .tm-cta-btns {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tm-btn-primary {
+        background: #2F8876;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 13px 30px;
+        border-radius: 999px;
+        text-decoration: none;
+        transition: background 0.2s ease, transform 0.2s ease;
+        display: inline-block;
+    }
+
+    .tm-btn-primary:hover {
+        background: #236b5e;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+
+    .tm-btn-outline {
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 13px 30px;
+        border-radius: 999px;
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        transition: background 0.2s ease, transform 0.2s ease;
+        display: inline-block;
+    }
+
+    .tm-btn-outline:hover {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        transform: translateY(-2px);
+    }
+</style>
 
 <?php include 'include/footer.php'; ?>
