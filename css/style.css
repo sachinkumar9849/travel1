@@ -3118,7 +3118,7 @@ h4.nn-body-heading {
 .pkg-section-title {
     font-family: 'Newsreader', serif;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
     color: #1a2b49;
     margin-bottom: 25px;
 }
@@ -4443,10 +4443,11 @@ h4.nn-body-heading {
     font-size: 13px;
     font-weight: 600;
     text-transform: lowercase;
+    color: white;
 }
 
 .heli-banner-breadcrumb a {
-    color: #cda863;
+    color: white;
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -4458,7 +4459,7 @@ h4.nn-body-heading {
 
 .heli-banner-breadcrumb span {
     font-size: 10px;
-    color: #cda863;
+    color: white;
 }
 
 /* Badges */
@@ -4530,7 +4531,7 @@ h4.nn-body-heading {
 
 /* ========== Glimpses from the Flight ========== */
 .heli-glimpse-section {
-    padding: 60px 0 70px;
+    padding: 40px 0 40px;
     background-color: #f8f7f3;
 }
 
@@ -4538,7 +4539,7 @@ h4.nn-body-heading {
     font-family: 'Newsreader', serif;
     font-size: 36px;
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     color: #0b2545;
     text-align: center;
     margin-bottom: 40px;
@@ -4662,11 +4663,11 @@ h4.nn-body-heading {
 .heli-glimpse-section::after {
     content: '';
     display: block;
-    width: 90%;
+    width: 97%;
     max-width: 1100px;
     height: 1px;
     background: #e0ded6;
-    margin: 50px auto 0;
+    margin: 44px auto 0;
 }
 
 /* Responsive */
@@ -4939,14 +4940,14 @@ h2.route_title {
     font-family: 'Newsreader', serif;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 /* Terms & Feasibility Section */
 .terms-feasibility-section {
     background-color: #faf9f6;
     padding: 60px 0;
-    margin: 40px 0;
+    /* margin: 40px 0; */
 }
 
 .terms-title {
@@ -5898,4 +5899,8 @@ p.dayItem {
     font-size: 12px;
     font-weight: 600;
     color: #7A7870;
+}
+
+.bgRemove {
+    background: unset;
 }
